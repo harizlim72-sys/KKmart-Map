@@ -1,0 +1,6 @@
+data/raw/*.parquet
+data/raw/*.geojson
+data/raw/census_district.csv
+data/raw/state_district_lookup.csv
+data/processed/
+__pycache__/

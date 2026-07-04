@@ -1,0 +1,38 @@
+# KKmart whitespace analysis configuration
+
+data_urls:
+  # OpenDOSM parquet datasets
+  population_district: https://storage.dosm.gov.my/population/population_district.parquet
+  hies_district: https://storage.dosm.gov.my/hies/hies_district.parquet
+  hh_income_district: https://storage.dosm.gov.my/hies/hh_income_district.parquet
+  # DOSM data-open GitHub repo
+  census_district: https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/census/census_district.csv
+  district_geojson: https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/administrative_2_district.geojson
+  state_geojson: https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/administrative_1_state.geojson
+  state_district_lookup: https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/state_district.csv
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  output_dir: output
+  stores_csv: data/raw/kkmart_stores_july.csv   # <- add the KKmart store file here
+
+# Store CSV column names (adjust to match the actual file once added)
+store_columns:
+  name: name
+  address: address
+  longitude: longitude
+  latitude: latitude
+
+# Demand index weights (must sum to 1.0)
+demand_weights:
+  population: 0.30
+  households: 0.20
+  density: 0.20
+  expenditure: 0.15
+  youth_share: 0.10
+  growth: 0.05
+
+scoring:
+  population_year: 2024        # latest population vintage to use
+  supply_per: 100000           # stores per N population
