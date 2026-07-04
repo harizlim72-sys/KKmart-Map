@@ -120,6 +120,12 @@ def main() -> int:
     out = out_dir / "kkmart_whitespace_map.html"
     m.save(str(out))
     print(f"Saved {out}")
+
+    # copy for GitHub Pages (served from /docs)
+    docs = ROOT / "docs"
+    docs.mkdir(exist_ok=True)
+    (docs / "index.html").write_bytes(out.read_bytes())
+    print(f"Saved {docs / 'index.html'} (GitHub Pages)")
     return 0
 
 
