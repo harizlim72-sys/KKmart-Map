@@ -24,6 +24,20 @@ store_columns:
   longitude: Longitude
   latitude: Latitude
 
+# All store brands for the saturation analysis (path + header of the name column;
+# every file has Address/Latitude/Longitude headers, stripped of whitespace on load)
+brands:
+  KKmart:        {path: KKmart_stores, name_col: Store}
+  7-Eleven:      {path: 7eleven_stores, name_col: Store Name}
+  99 Speedmart:  {path: 99speedmart_stores, name_col: Store Name}
+  FamilyMart:    {path: Familymart_store, name_col: Name}
+  myNEWS:        {path: Mynews_stores, name_col: Name}
+
+saturation:
+  # district stores_per_100k relative to the national rate
+  saturated_ratio: 1.2    # above this = saturated
+  open_ratio: 0.5         # below this = underserved / open
+
 # Demand index weights (must sum to 1.0)
 demand_weights:
   population: 0.30

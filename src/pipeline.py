@@ -21,13 +21,16 @@ def main() -> int:
     build_district_table.main()
 
     cfg = load_config()
-    stores_csv = ROOT / cfg["paths"]["stores_csv"]
-    if stores_csv.exists():
-        print("\n== 2b Clean + spatially join stores ==")
+    if any((ROOT / spec["path"]).exists() for spec in cfg.get("brands", {}).values()):
+        print("\n== 2b Clean + spatially join all store brands ==")
+        from src import competitors
+        competitors.main()
+    elif (ROOT / cfg["paths"]["stores_csv"]).exists():
+        print("\n== 2b Clean + spatially join KKmart stores ==")
         from src import clean_stores
         clean_stores.main()
     else:
-        print(f"\n== 2b SKIPPED: store file not found at {stores_csv} ==")
+        print("\n== 2b SKIPPED: no store files found ==")
 
     print("\n== 3/4 Score districts ==")
     score.main()

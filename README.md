@@ -1,7 +1,13 @@
 # KKmart Whitespace Analysis
 
 Identifies districts in Malaysia with strong retail demand but weak/no KKmart presence,
-using DOSM open data (population, households, income, expenditure) and the KKmart store list.
+using DOSM open data (population, households, income, expenditure), the KKmart store list,
+and competitor locations (7-Eleven, 99 Speedmart, FamilyMart, myNEWS) for market saturation.
+
+**Saturation**: each district's total convenience stores per 100k population, relative to
+the national rate (~22.5/100k). Above 1.2x = saturated, below 0.5x = underserved/open
+(thresholds in `config.yaml`). Districts are then categorized: `open_whitespace`,
+`room_to_expand`, `competitor_led`, `competitive`, `saturated`, `low_demand`.
 
 See [WHITESPACE_ANALYSIS_PLAN.md](WHITESPACE_ANALYSIS_PLAN.md) for the full methodology.
 
