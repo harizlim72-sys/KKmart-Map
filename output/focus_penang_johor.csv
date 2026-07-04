@@ -1,0 +1,16 @@
+peninsular_rank,state,district,population,income_median,kkmart_count,competitor_count,stores_per_100k,saturation_vs_peninsular,saturation_level,headroom_to_par,kkmart_fair_gap,category
+9,Johor,Johor Bahru,1800000.0,8232,87,469,30.89,1.192,saturated,-90,0,saturated
+40,Johor,Kota Tinggi,233800.0,6227,5,31,15.4,0.594,balanced,25,0,competitive
+44,Johor,Batu Pahat,510400.0,6347,9,94,20.18,0.779,balanced,29,6,competitive
+55,Johor,Kulai,351400.0,7460,11,70,23.05,0.89,balanced,10,1,competitive
+56,Johor,Muar,323300.0,5724,5,61,20.41,0.788,balanced,18,5,competitive
+57,Johor,Kluang,333800.0,5204,5,64,20.67,0.798,balanced,17,5,competitive
+60,Johor,Pontian,177900.0,5616,4,32,20.24,0.781,balanced,10,1,competitive
+64,Johor,Tangkak,169500.0,5622,4,31,20.65,0.797,balanced,9,1,competitive
+74,Johor,Segamat,205100.0,5318,2,50,25.35,0.979,balanced,1,6,competitive
+77,Johor,Mersing,81100.0,4445,0,19,23.43,0.904,balanced,2,3,competitor_led
+2,Pulau Pinang,Timur Laut,569900.0,6714,11,80,15.97,0.616,balanced,57,2,competitive
+41,Pulau Pinang,Seberang Perai Tengah,443200.0,6220,7,88,21.44,0.828,balanced,20,7,competitive
+43,Pulau Pinang,Barat Daya,248300.0,7247,4,46,20.14,0.777,balanced,14,3,competitive
+47,Pulau Pinang,Seberang Perai Utara,351000.0,6103,1,68,19.66,0.759,balanced,22,9,competitive
+85,Pulau Pinang,Seberang Perai Selatan,188100.0,6231,1,59,31.9,1.231,saturated,-11,8,saturated
