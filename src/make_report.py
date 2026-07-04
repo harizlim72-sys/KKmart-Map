@@ -49,6 +49,7 @@ def fmt_pop(x):
 
 def main() -> int:
     r = pd.read_csv(ROOT / "output" / "whitespace_ranking.csv")
+    pen = pd.read_csv(ROOT / "output" / "focus_peninsular_ranking.csv")
 
     total = int(r["total_stores"].sum())
     kk = int(r["kkmart_count"].sum())
@@ -90,6 +91,15 @@ def main() -> int:
         f"underserved (<0.5x). The clearest expansion opportunities fall into two groups: open "
         f"whitespace in East Malaysia (Tawau, Semporna, Lahad Datu) and competitor-validated markets "
         f"where KKmart is absent (Kota Kinabalu, Alor Setar, Kuala Terengganu)."
+    )
+    doc.add_paragraph(
+        "Management has guided expansion toward Northern and Southern Peninsular Malaysia, with "
+        "Pulau Pinang and Johor as focus states. Benchmarked against the Peninsular average of 25.9 "
+        "stores per 100k, this guidance is directionally sound: the two states hold roughly 230 "
+        "stores of at-par headroom — enough to grow the KKmart network by about 20% without entering "
+        "saturated territory. The critical execution question is mix: the headroom sits in Georgetown "
+        "(Timur Laut), mainland Seberang Perai, and Johor's secondary districts — not in Johor Bahru, "
+        "which is already 90 stores over par."
     )
 
     # 2. Methodology
@@ -207,8 +217,76 @@ def main() -> int:
         "brand. Kota Kinabalu stands out — 547k people, 96 competitor outlets, zero KKmart stores."
     )
 
-    # 4. Investment analyst relevance
-    add_heading(doc, "4. Relevance for Investment Analysis", 1)
+    # 4. Peninsular focus: management guidance assessment
+    add_heading(doc, "4. Focus: Northern & Southern Peninsular Corridors", 1)
+    doc.add_paragraph(
+        "Management guidance points to expansion in Northern and Southern Peninsular Malaysia, with "
+        "Pulau Pinang and Johor as the focus states. This section benchmarks both states against the "
+        "Peninsular average of 25.9 stores per 100k population (the appropriate yardstick for "
+        "Peninsular expansion; the national rate of 22.5 is diluted by East Malaysia). Two metrics "
+        "are used: headroom to par — the number of stores a district can absorb before reaching "
+        "average Peninsular density (negative = overshoot) — and the KKmart fair-share gap — stores "
+        "KKmart would need to hold its 14.6% Peninsular network share of the district's current "
+        "store base."
+    )
+
+    def focus_table(state):
+        sub = pen[pen["state"] == state].sort_values("whitespace_score", ascending=False)
+        return pd.DataFrame({
+            "District": sub["district"],
+            "Population": sub["population"].map(fmt_pop),
+            "KKmart": sub["kkmart_count"].astype(int),
+            "Competitors": sub["competitor_count"].astype(int),
+            "vs Peninsular avg": sub["saturation_vs_peninsular"].map(lambda x: f"{x:.2f}x"),
+            "Headroom": sub["headroom_to_par"].astype(int),
+            "KK fair-share gap": sub["kkmart_fair_gap"].astype(int),
+        })
+
+    add_heading(doc, "4.1 Pulau Pinang — guidance supported", 2)
+    add_table(doc, focus_table("Pulau Pinang"))
+    doc.add_paragraph()
+    doc.add_paragraph(
+        "Four of five districts sit below par with headroom to grow. Timur Laut (Georgetown) is the "
+        "standout: the island's commercial core, median income of RM 6,714, and 57 stores of headroom "
+        "— the single largest under-supplied urban market in the North. Mainland Seberang Perai is "
+        "where KKmart is most under-indexed: 155 competitor outlets in SP Utara and SP Tengah against "
+        "just 8 KKmart stores. The exception is Seberang Perai Selatan, already 1.23x par and 11 "
+        "stores over; new openings there would be share-fighting."
+    )
+
+    add_heading(doc, "4.2 Johor — guidance holds only outside Johor Bahru", 2)
+    add_table(doc, focus_table("Johor"))
+    doc.add_paragraph()
+    doc.add_paragraph(
+        "Johor Bahru, the state's headline market, is already saturated: 556 stores, 1.19x Peninsular "
+        "par, 90 stores over. Incremental JB openings compete with 469 competitor outlets for existing "
+        "traffic. The genuine Johor runway is in secondary districts — Batu Pahat (+29 headroom), Kota "
+        "Tinggi (+25), Muar (+18), Kluang (+17), with Kulai, Pontian and Tangkak adding roughly 10 "
+        "each. Johor excluding JB offers approximately 120 stores of at-par headroom, comparable to "
+        "Penang's 113 excluding SP Selatan."
+    )
+
+    add_heading(doc, "4.3 Adjacent Northern opportunity — Kedah and Perlis", 2)
+    doc.add_paragraph(
+        "If the Northern corridor is read more broadly than Penang alone, the largest headroom in the "
+        "region actually sits next door: Kulim (+38 stores, zero KKmart, 53 competitors), Kuala Muda / "
+        "Sungai Petani (+36, two KKmart vs 110 competitors) and Perlis (+43, zero KKmart). These "
+        "districts border Penang's mainland corridor and could share its distribution infrastructure, "
+        "at the cost of lower median incomes (RM 4,200-4,700 versus Penang's RM 6,200-7,200)."
+    )
+
+    add_heading(doc, "4.4 Reading management execution", 2)
+    doc.add_paragraph(
+        "The guided focus states hold ~230 stores of combined at-par headroom, sufficient for ~20% "
+        "network growth without entering saturated territory. The signal to monitor is the mix of "
+        "actual openings: concentration in Johor Bahru city or Seberang Perai Selatan would indicate "
+        "share-fighting in crowded markets (margin-dilutive), while openings weighted toward Timur "
+        "Laut, mainland Seberang Perai and Johor's secondary towns would indicate genuine whitespace "
+        "capture consistent with the guidance."
+    )
+
+    # 5. Investment analyst relevance
+    add_heading(doc, "5. Relevance for Investment Analysis", 1)
     for title, body in [
         ("Growth runway quantification",
          "Store-count growth is the primary earnings driver for convenience retail. This analysis converts "
@@ -235,8 +313,8 @@ def main() -> int:
         run.bold = True
         p.add_run(body)
 
-    # 5. Caveats
-    add_heading(doc, "5. Caveats", 1)
+    # 6. Caveats
+    add_heading(doc, "6. Caveats", 1)
     for c in [
         "Data vintages differ: households are Census 2020, income/expenditure HIES 2022, population 2024. "
         "Rankings are robust to this, but absolute per-household figures mix reference years.",
@@ -252,7 +330,8 @@ def main() -> int:
     p = doc.add_paragraph()
     run = p.add_run(
         "Deliverables: interactive map (docs/index.html, deployable via GitHub Pages), full district "
-        "ranking (output/whitespace_ranking.csv), reproducible pipeline (python -m src.pipeline)."
+        "ranking (output/whitespace_ranking.csv), Peninsular focus tables (output/focus_peninsular_"
+        "ranking.csv, output/focus_penang_johor.csv), reproducible pipeline (python -m src.pipeline)."
     )
     run.italic = True
     run.font.size = Pt(9)
