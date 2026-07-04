@@ -183,22 +183,52 @@ def main() -> int:
     doc.add_paragraph()
 
     add_heading(doc, "3.3 Open whitespace (high demand, few stores from any brand)", 2)
-    ow = r[r["category"] == "open_whitespace"].nlargest(8, "whitespace_score")
-    ow_df = pd.DataFrame({
-        "District": ow["district"] + ", " + ow["state"],
-        "Population": ow["population"].map(fmt_pop),
-        "Median income (RM)": ow["income_median"].astype(int).map("{:,}".format),
-        "Total stores": ow["total_stores"].astype(int),
-        "Stores/100k": ow["stores_per_100k"].round(1),
-    })
-    add_table(doc, ow_df)
-    doc.add_paragraph()
+    ow = r[r["category"] == "open_whitespace"]
+    east_states = {"Sabah", "Sarawak", "W.P. Labuan"}
+
+    def ow_table(subset):
+        return pd.DataFrame({
+            "District": subset["district"] + ", " + subset["state"],
+            "Population": subset["population"].map(fmt_pop),
+            "Median income (RM)": subset["income_median"].astype(int).map("{:,}".format),
+            "Total stores": subset["total_stores"].astype(int),
+            "Stores/100k": subset["stores_per_100k"].round(1),
+        })
+
+    ow_east = ow[ow["state"].isin(east_states)].nlargest(8, "whitespace_score")
+    ow_west = ow[~ow["state"].isin(east_states)].nlargest(8, "whitespace_score")
+
     doc.add_paragraph(
-        "East Malaysia dominates: Tawau (414k people, 8 stores in total across all brands), Semporna, "
-        "Lahad Datu and Kinabatangan in Sabah; Bintulu and Sibu in Sarawak. Bintulu is notable for its "
-        "high median income (RM 8,567 — above Klang) with no KKmart presence. The main execution risk "
-        "in this group is East Malaysian logistics and supply-chain cost."
+        f"Of the {len(ow)} open-whitespace districts, {len(ow[ow['state'].isin(east_states)])} are in "
+        f"East Malaysia and {len(ow[~ow['state'].isin(east_states)])} in West Malaysia. The two groups "
+        "differ sharply in character and execution risk."
     )
+
+    p = doc.add_paragraph()
+    p.add_run("East Malaysia (Sabah, Sarawak, Labuan). ").bold = True
+    p.add_run(
+        "The deepest whitespace in the country: Tawau (414k people, 8 stores in total across all "
+        "brands), Semporna, Lahad Datu and Kinabatangan in Sabah; Bintulu and Sibu in Sarawak. "
+        "Kalabakan and Kunak have no convenience store from any chain. Bintulu is notable for its "
+        "high median income (RM 8,567 — above Klang) with no KKmart presence. The main execution "
+        "risk is logistics: distribution-centre and shipping costs across the South China Sea."
+    )
+    add_table(doc, ow_table(ow_east))
+    doc.add_paragraph()
+
+    p = doc.add_paragraph()
+    p.add_run("West Malaysia (Peninsular East Coast). ").bold = True
+    p.add_run(
+        "Every Peninsular open-whitespace district lies on the East Coast, in Kelantan and "
+        "Terengganu: Kota Bharu (584k people, 10 stores per 100k — less than half the Peninsular "
+        "average), Pasir Mas, Bachok and Tumpat form a contiguous under-served cluster around the "
+        "Kota Bharu conurbation. Unlike East Malaysia, these districts are reachable from existing "
+        "Peninsular distribution infrastructure, making them the lower-risk half of the open "
+        "whitespace despite lower median incomes (RM 3,500-4,300 in the Kelantan cluster; "
+        "Kuala Nerus near Kuala Terengganu is the income outlier at RM 6,800)."
+    )
+    add_table(doc, ow_table(ow_west))
+    doc.add_paragraph()
 
     add_heading(doc, "3.4 Competitor-led markets (demand proven, KKmart absent)", 2)
     cl = r[r["category"] == "competitor_led"].nlargest(8, "demand_index")
