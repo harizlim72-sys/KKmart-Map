@@ -231,21 +231,60 @@ def main() -> int:
     doc.add_paragraph()
 
     add_heading(doc, "3.4 Competitor-led markets (demand proven, KKmart absent)", 2)
-    cl = r[r["category"] == "competitor_led"].nlargest(8, "demand_index")
-    cl_df = pd.DataFrame({
-        "District": cl["district"] + ", " + cl["state"],
-        "Population": cl["population"].map(fmt_pop),
-        "Competitors": cl["competitor_count"].astype(int),
-        "Stores/100k": cl["stores_per_100k"].round(1),
-        "vs national": cl["saturation_ratio"].map(lambda x: f"{x:.1f}x"),
-    })
-    add_table(doc, cl_df)
-    doc.add_paragraph()
+    cl = r[r["category"] == "competitor_led"]
+    cl_east = cl[cl["state"].isin(east_states)].sort_values("demand_index", ascending=False)
+    cl_west = cl[~cl["state"].isin(east_states)].sort_values("demand_index", ascending=False)
+
+    def cl_table(subset):
+        other = (subset["n_FamilyMart"] + subset["n_myNEWS"]).astype(int)
+        return pd.DataFrame({
+            "District": subset["district"] + ", " + subset["state"],
+            "Population": subset["population"].map(fmt_pop),
+            "Median income (RM)": subset["income_median"].astype(int).map("{:,}".format),
+            "7-Eleven": subset["n_7-Eleven"].astype(int),
+            "99 Speedmart": subset["n_99 Speedmart"].astype(int),
+            "FamilyMart+myNEWS": other,
+            "Stores/100k": subset["stores_per_100k"].round(1),
+            "vs national": subset["saturation_ratio"].map(lambda x: f"{x:.2f}x"),
+        })
+
     doc.add_paragraph(
-        "These are arguably the lowest-risk expansion targets: competitors have already validated "
-        "consumer demand, yet total density remains below the national rate, and KKmart is the missing "
-        "brand. Kota Kinabalu stands out — 547k people, 96 competitor outlets, zero KKmart stores."
+        f"These are arguably the lowest-risk expansion targets: competitors have already validated "
+        f"consumer demand, total density remains below the national rate, and KKmart is the missing "
+        f"brand. Of the {len(cl)} competitor-led districts, {len(cl_east)} are in East Malaysia and "
+        f"{len(cl_west)} in West Malaysia."
     )
+
+    p = doc.add_paragraph()
+    p.add_run("East Malaysia — the greater Kota Kinabalu metro. ").bold = True
+    kk_metro = cl_east[cl_east["district"].isin(["Kota Kinabalu", "Putatan", "Penampang", "Tuaran", "Papar"])]
+    p.add_run(
+        f"Five of the seven East Malaysian districts (Kota Kinabalu, Putatan, Penampang, Tuaran, "
+        f"Papar) form one contiguous urban corridor of {kk_metro['population'].sum()/1e6:.1f} million "
+        f"people holding {int(kk_metro['competitor_count'].sum())} competitor outlets and zero KKmart "
+        "stores — the largest single competitor-validated market KKmart has not entered. Miri and "
+        "Keningau complete the group. Market structure is also notable: FamilyMart and myNEWS have "
+        "no presence in any of these districts, so the market is a 7-Eleven / 99 Speedmart duopoly. "
+        "One Kota Kinabalu distribution centre would serve the entire metro cluster, partially "
+        "offsetting the East Malaysian logistics disadvantage."
+    )
+    add_table(doc, cl_table(cl_east))
+    doc.add_paragraph()
+
+    p = doc.add_paragraph()
+    p.add_run("West Malaysia — the Northern cluster and East Coast towns. ").bold = True
+    p.add_run(
+        "Five of the eleven Peninsular districts sit in the guided Northern corridor: Kota Setar / "
+        "Alor Setar (85 competitor outlets, nearly at par yet zero KKmart), Kulim, Kubang Pasu and "
+        "Perlis, plus Larut dan Matang (Taiping) in Perak. These adjoin the Penang expansion corridor "
+        "and could share its distribution (see section 4.3). The remainder are East Coast towns, "
+        "including the higher-income oil-and-gas centres Kemaman (RM 6,425 median) and Dungun "
+        "(RM 6,356). Kuala Terengganu is a special case: 33 of its 38 competitor outlets are "
+        "7-Eleven and 99 Speedmart has no store there, so the value-grocery position KKmart competes "
+        "for is effectively uncontested."
+    )
+    add_table(doc, cl_table(cl_west))
+    doc.add_paragraph()
 
     # 4. Peninsular focus: management guidance assessment
     add_heading(doc, "4. Focus: Northern & Southern Peninsular Corridors", 1)
