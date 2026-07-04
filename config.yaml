@@ -15,14 +15,14 @@ paths:
   raw_dir: data/raw
   processed_dir: data/processed
   output_dir: output
-  stores_csv: data/raw/kkmart_stores_july.csv   # <- add the KKmart store file here
+  stores_csv: KKmart_stores   # 'KKmart stores final july' CSV, uploaded at repo root
 
-# Store CSV column names (adjust to match the actual file once added)
+# Store CSV column names (actual file header -> canonical name)
 store_columns:
-  name: name
-  address: address
-  longitude: longitude
-  latitude: latitude
+  name: Store
+  address: Address
+  longitude: Longitude
+  latitude: Latitude
 
 # Demand index weights (must sum to 1.0)
 demand_weights:

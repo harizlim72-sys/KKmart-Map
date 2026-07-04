@@ -82,8 +82,8 @@ def spatial_join(df: pd.DataFrame, raw_dir: Path) -> gpd.GeoDataFrame:
         # coastal stores can fall just outside polygons; snap to nearest district
         print(f"  {unmatched.sum()} stores outside all district polygons — snapping to nearest")
         near = gpd.sjoin_nearest(
-            gdf[unmatched].drop(columns=[c for c in ("index_right",) if c in gdf.columns]),
-            districts[["state", "district", "geometry"]],
+            gdf[unmatched].drop(columns=[c for c in ("index_right",) if c in gdf.columns]).to_crs(3857),
+            districts[["state", "district", "geometry"]].to_crs(3857),
             how="left",
         )
         joined.loc[unmatched, ["state", "district"]] = near[["state", "district"]].values
