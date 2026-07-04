@@ -1,0 +1,484 @@
+Name ,Address,Latitude,Longitude
+FAMILYMART Wisma Lim Foo Yong,"Lot G-01, Ground Floor, Wisma Lim Foo Yong, 86, Jalan Raja Chulan, 50200 Kuala Lumpur",3.1505932,101.7099983
+FAMILYMART Mid Valley,"F-027C, Level 1, North Court, Mid Valley Megamall, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur.",3.1175628,101.6774073
+FAMILYMART MyTown,"Lot No. B1 - 031, Basement 1, Mytown Shopping Centre, No 6, Jalan Cochrane Seksyen 90, 55100 Kuala Lumpur",3.1343589,101.7229622
+FAMILYMART Taylor Lakeside,"G-6, Ground Floor, The Broadwalk. No 2, Jalan Taylor's, Subang Jaya, 47500 Selangor",3.0638548,101.6159855
+FAMILYMART Sunway Medical Centre,"Lot C-G-R01, Sunway Medical Centre, Tower C, 5 Jalan Lagoon Selatan, Bandar Sunway, 47500 Petaling Jaya, Selangor",3.065856,101.608976
+FAMILYMART Menara Citibank,"Suite 1.06, Level 1 Menara Citibank, 165 Jalan Ampang, 50450 Kuala Lumpur",3.1599106,101.7174159
+FAMILYMART Amcorp Mall,"G-02, Ground Floor, PJ Tower, 18 Persiaran Barat, 46050 Petaling Jaya, Selangor, Malaysia",3.104607,101.6471182
+FAMILYMART Intermark,"Lot C-06, Concourse floor, Intermark Mall, 348, Jalan Tun Razak, Kampung Datuk Keramat, 50400 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",3.1613001,101.7199536
+FAMILYMART Bandar Sunway,"17, Jalan PJS 11/9, Bandar Sunway, 46150 Petaling Jaya, Selangor",3.0687217,101.6025946
+FAMILYMART Subang Jaya Medical Centre,"Lot G1-03, Subang Jaya Medical Centre (North Tower Annex Block), 1 Jalan SS12/1A, 47500 Subang Jaya, Selangor",3.0796503,101.5940275
+FAMILYMART Awana Skyway,"Lot No. 2-3, Level 2, Awana Skyway Station, Genting Highlands Resorts, 69000 Genting Highlands, Pahang",3.4235071,101.7939901
+"FAMILYMART Bukit Tinggi, Klang","8-00-1, Lorong Batu Nilam 4A, Bandar Bukit Tinggi, 41200 Klang, Selangor",3.0078898,101.4389899
+FAMILYMART Summit USJ,"Lot G (0), The Summit USJ, 38, Perisaran Kewajipan, Usj 1, 47600 Subang Jaya",3.0602399,101.593544
+FAMILYMART Menara Hap Seng,"Lot G11, Ground Floor, Menara Hap Seng, Jalan P.Ramlee,50250, Kuala Lumpur",3.1523579,101.7074477
+FAMILYMART Ikano Power Centre,"Lot LG 1.11, Lower Ground floor, IPC Shopping Centre,  No. 2, Jalan PJU 7/2, Mutiara Damansara, 47800, Petaling Jaya, Selangor",3.1561358,101.6116671
+FAMILYMART Sri Petaling,"No 75G, Jalan Radin Bagus, Bandar Sri Petaling, 57000, Kuala Lumpur",3.0710907,101.6949001
+FAMILYMART Bangsar South,"Unit UG-3, Level UG, The Sphere, No 1, Avenue 1, Bangsar South, No 8, Jalan Kerinchi, 59200 Kuala Lumpur",3.1107845,101.6676501
+FAMILYMART Danau Niaga,"No. 6 Plaza Usahawan Genting Klang (Plaza Crystalville), Jalan Danau Niaga, Taman Danau Kota, 53300, Kuala Lumpur",3.2016719,101.7177432
+FAMILYMART Bandar Puteri Puchong,"No 18, Jalan Puteri 1/2, Bandar Puteri, Puchong, 47100, Selangor",3.0262859,101.6159596
+FAMILYMART Sri Hartamas,"28(Ground Floor), Jalan 24/70A, Desa Sri Hartamas, 50480, Kuala Lumpur",3.1630565,101.6506835
+FAMILYMART Sungai Long,"No 16, Jalan SL 1/2, Bandar Sg Long, 43000, Kajang, Selangor",3.0402027,101.7937601
+FAMILYMART PJ Sek. 14,"No. 13 Jalan 14/20, Petaling Jaya, 46100 Selangor Darul Ehsan",3.1095615,101.6363923
+FAMILYMART C180 Belakong,"31-G, Jalan C180/1, Dataran C180, 43200 Cheras, Selangor Darul Ehsan",3.0357746,101.7658877
+FAMILYMART Kota Kemuning,"No.29-G, Jalan Anggerik Vanilla X 31/X, Kota Kemuning, Seksyen 31, 40460 Shah Alam, Selangor",3.0029526,101.5392774
+FAMILYMART Sunway Giza,"Lot G12, Sunway Giza Mall, No.2, Jalan PJU 5/14, PJU 5, Kota Damansara, 47810 Petaling Jaya, Selangor",3.1508511,101.591537
+FAMILYMART Oasis Ara Damansara,"R-13, Ara Damansara, Oasis Square, No. 2, Jalan PJU 1A/7A, Petaling Jaya, 47301 Selangor",3.1141554,101.5744568
+FAMILYMART Eng Ann,"No 2, Lorong Kasawari 4B, Taman Eng Ann, Klang, 41150 Selangor",3.0568733,101.4597346
+FAMILYMART The Mines,"The Mines, L2-K6, Level 2, Jalan Dulang, Mines Resort City, Seri Kembangan, 43300 Selangor",3.0285941,101.719161
+FAMILYMART Desa Aman Puri,"1-36A, Jalan Desa 1/3, Desa Aman Puri, Kepong 52100 Kuala Lumpur",3.2116395,101.6163049
+FAMILYMART Kuchai Lama,"5G, Jalan Kuchai Maju 8, Kuchai Lama, 58200, Kuala Lumpur.",3.0896505,101.6866774
+FAMILYMART Fraser Business Park,"48G, Jalan Metro Pudu 2, off Jalan Yew, 55100 Kuala Lumpur",3.1294111,101.7140805
+FAMILYMART Glenmarie,"No 3, jalan Peniaga U1 / 34 , Glenmarie , Seksyen U 1 , 40150 Shah Alam",3.0818819,101.5591832
+FAMILYMART Kapar,"G - 270, KU/13, Jalan Besar, 42200 Kapar",3.1393929,101.3675832
+FAMILYMART Midpoint Shopping Complex,"Lot R.G.02, Level G, MidPoint Shopping Complex, Jalan Pandan Indah 1/25, Pandan Indah, 55100 Kuala Lumpur",3.1321677,101.7520538
+FAMILYMART Menara U,"G-9 , Menara U, Jalan Boling Padang 13/62, Section 13, 40100 Shah Alam, Selangor",3.0755839,101.5513462
+FAMILYMART Jalan Sultan Ismail (2),"No.61, Ground Floor, Jalan Sultan Ismail, 50250 Wilayah Persekutuan Kuala Lumpur",3.1550863,101.70629
+FAMILYMART Taman Sutera,"95, Sutera Tanjung 8/2, Taman Sutera Utama, 81300 Skudai, Johor",1.5144048,103.6688172
+FAMILYMART Bandar Puchong Jaya,"G7, Jalan Kenari 4, Bandar Puchong Jaya, 47170 Puchong, Selangor",3.0454422,101.6209854
+FAMILYMART Caltex Sungai Buloh,"Lot 37011, No. PU 469, Jalan Subang Sungai Buloh, Seksyen U3, 40150 Shah Alam, Selangor",3.0810794,101.5847716
+FAMILYMART Taman Selayang Utama,"No 3, Jalan SU 10, Taman Selayang Utama, 68100 Batu Caves, Selangor",3.2372191,101.6434936
+FAMILYMART Kompleks Mutiara,"568-G-8 & 568-G-25, Kompleks Mutiara, 3 1/2 Miles, Jalan Ipoh, 52100 Kuala Lumpur",3.1890556,101.6806402
+FAMILYMART Nusa Bestari,"14 (G), Jalan Bestari 2/2, Taman Nusa Bestari, 81200 Skudai, Johor",1.4807347,103.6653192
+FAMILYMART Caltex LDP Batu 14,"Lot 58753, Batu 14, Jalan Puchong, 47100 Puchong, Selangor",3.0631571,101.6480663
+FAMILYMART Caltex Lestari Perdana,"Lot 45245, Persiaran Lestari Perdana, Taman Lestari Perdana, 43300 Seri Kembangan",2.994195,101.6632209
+FAMILYMART Plaza Sentosa,"Unit 1A & Unit 25, Ground Floor, Block F, Plaza Sentosa, 80150 Johor Bahru",1.492217,103.7683755
+FAMILYMART Ampang Point,"87 (Ground Floor), Lorong Mamanda 1, Ampang Point, 68000 Ampang, Selangor",3.2063487,101.7620435
+FAMILYMART Sunway Monash Residences,"Lot L2-02-01A, Sunway Monash Residence, Persiaran Tasik Barat, Sunway South Quay, 47500 Subang Jaya, Selangor",3.0632018,101.5996253
+FAMILYMART Bukit Jalil Jaya,"22, 2, Jalan Jalil Jaya 2, Jalil Link, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",3.0583153,101.6737622
+FAMILYMART JB City Square,"Lot J2-18 Level 02, Johor Bahru City Square, 106-108, Jalan Wong Ah Fook, 8000 Johor Bahru, Johor.",1.4616246,103.763596
+FAMILYMART Mega Mendung,"109, Jalan Mega Mendung, Bandar Complex, 58200 Kuala Lumpur",3.0832233,101.671526
+FAMILYMART Mid Valley L3,"T-030A, Third Floor, Mid Valley Megamall, Lingkaran Syed Putra, 59200 Kuala Lumpur",3.1175628,101.6774073
+FAMILYMART I-City Mall,"Lot LG-39, Sentral i-City Shopping Centre, Plot 1, I-City, Persiaran Multimedia, Seksyen 7, 40000 Shah Alam",3.0642848,101.4832435
+FAMILYMART Lebuh Turi,"No.112,Leboh Turi,Taman Chi Liung,41200 Klang",3.0274924,101.4283045
+FAMILYMART Taman Johor Jaya,"No 22, Jalan Dedap 4, Taman Johor Jaya, 81100 Johor Bahru, Johor",1.5404941,103.8045325
+FAMILYMART Lake Fields,"63A, Jalan Tasik Utama 3, The Trillium, Lake Fields, Sungei Besi, 57000 Kuala Lumpur",3.0620517,101.7109452
+FAMILYMART Metropoint Kajang,"Lot G2, Ground Floor, Metro Point Complex, Jalan Jelok 8, 43000 Kajang, Selangor Darul Ehsan",2.991374,101.793807
+FAMILYMART Jonker Street,"No. 127, Jalan Hang Jebat, 75200 Melaka",2.1976578,102.2453593
+FAMILYMART Taman Molek,"No 45, Ground Floor, Jalan Molek 3/10, Taman Molek, 81100 Johor Bahru, Johor",1.5227809,103.7854838
+FAMILYMART Mutiara Mas,"No. 2 , Jalan Mutiara 1/1, Taman Mutiara Mas, 81300 Skudai, Johor",1.5145793,103.6318646
+FAMILYMART Indahpura,"189, Jalan Kenanga 29/4, Indahpura, 81000 Kulai, Johor",1.6417615,103.6189539
+FAMILYMART Mesamall,"G-03a, Ground Floor, Mesamall, Persiaran Ilmu, Bandar Baru Nilai, 71800 Nilai, Negeri Sembilan",2.825131,101.777424
+FAMILYMART Bukit Dahlia,"No. 5, Jalan Sejambak 14, Taman Bukit Dahlia, 81700, Johor",1.4782193,103.8958761
+FAMILYMART Rasah Prima,"No.12-G, Jalan Rasah Prima 1, Pusat Komersial Rasah Prima, 70300 Seremban, Negeri Sembilan",2.6892153,101.9343249
+FAMILYMART Taman University,"No. 1 , Jalan Pendidikan 8, Taman Universiti, 81300 Skudai, Johor Bahru",1.543647,103.630079
+FAMILYMART Taman Mount Austin,"5-1A-1, Jalan Austin Heights 3, Taman Mount Austin, 81100 Johor Bahru, Johor",1.560941,103.7800794
+FAMILYMART Ampang Jaya,"No.1A-00-06, Pangsapuri Melati Merdeka Villa, Jalan Merdeka Villa, 68000 Ampang, Selangor",3.138732,101.7645341
+FAMILYMART Caltex Bestari Jaya,"PT 7490, Section 2, Kubang Badak, Pekan Bestari Jaya, 45000 Selangor",3.3834674,101.4150163
+FAMILYMART Setia City Mall,"#LG-20A, Setia City Mall, No. 7, Persiaran Setia Dagang, Bandar Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor",3.1094685,101.4602178
+FAMILYMART Seremban Gateway,"Lot No 10 (A), Ground Floor, Gateway Off, Seremban - Bukit Nenas Highway, 70200 Seremban, Negeri Sembilan",2.7169307,101.9188839
+FAMILYMART Centrepoint Seremban,"G-14, Ground Floor, Centerpoint Seremban, 33, Jalan Dato Siamang Gagap, Betaria Business Centre, 70100 Seremban, Negeri Sembilan",2.7228949,101.955192
+FAMILYMART Empire Subang,"LG-11, Lower Ground Level,  Empire Shopping Gallery, Jalan SS 16/1, 47500 Subang Jaya, Selangor",3.0817783,101.5828038
+FAMILYMART Pantai KL Hospital,"Retail Lot 10, Ground floor, Block A, Pantai Hospital Kuala Lumpur, 8, Jalan Bukit Pantai, 59100, Kuala Lumpur",3.1197152,101.6669298
+FAMILYMART Taman Danau Desa,"No. 1, Jalan 2/109F, Taman Danau Desa, 58100 Kuala Lumpur",3.1006365,101.6874602
+FAMILYMART Bandar Sri Damansara,"No. 11G, Jalan Tanjung, SD13/1, Bandar Sri Damansara, 52200 Kuala Lumpur",3.1885957,101.605322
+FAMILYMART Sentosa Klang,"No. 6, Jalan Dato Yusuf Shabuddin 30, Taman Sentosa, 41200 Klang, Selangor",2.9940851,101.4821904
+FAMILYMART Plaza Damas,"P-8A, Plaza Floor, No.60, Jalan Sri Hartamas 1, Taman Sri Hartamas, 50480 Kuala Lumpur",3.1639099,101.6566697
+FAMILYMART PLUS Sg Buloh,"Lot R5, Restoran Jejantas Sg Buloh (Arah Selatan), KM 458.3, Lebuhraya Sg Buloh-Tanjung Malim , 47000 Sg Buloh, Selangor",3.1648938,101.5718336
+FAMILYMART Berkeley Uptown,"Lot 75, Jalan Delima, Off Jalan Kapar, 41400 Klang, Selangor",3.0561224,101.4450419
+FAMILYMART Melaka Raya,"258, Jalan Melaka Raya 3, Taman Melaka Raya, 75000 Melaka",2.1878523,102.2533478
+FAMILYMART Plaza Sentral,"Unit 3A-G Ground Floor, Block 3A, Plaza Sentral, Jalan Stesen Sentral 5, KL Sentral, 50470-Kuala Lumpur",3.1323673,101.6843387
+FAMILYMART Caltex Taman Puteri Wangsa,"Lot B, No.2, Jalan Beladau 31, Taman Puteri Wangsa, 81800 Ulu Tiram, Johor",1.5904403,103.8018325
+FAMILYMART Waterfront @ Desa Park City,"GF-21H, Ground Floor, The Waterfront@ParkCity, No.5, Persiaran Residen, Desa Park City, 52200 Kuala Lumpur",3.1869487,101.6277335
+"FAMILYMART Gravity Green, Bandar Seri Alam","Gravity Green, Bandar Seri Alam, Masai Gravity Green @ Bandar Seri Alam, Jalan Suria, Bandar Baru Seri Alam, 81750 Masai, Johor",1.4962035,103.8728633
+FAMILYMART LRT Ampang Park,"K3- Concourse Level, LRT Ampang Park Station, Kuala Lumpur",3.15985,101.71913
+FAMILYMART Bukit Beruang,"658F-G, Jalan Delima, Taman Bukit Melaka, Hang Tuah Jaya, 75450 Ayer Keroh, Melaka",2.2463291,102.2740218
+FAMILYMART KLSMC,"G-01A, Ground Floor, Wisma Perintis, 47, Jalan Dungun, Damansara Heights, 50490 Kuala Lumpur",3.152269,101.6653741
+FAMILYMART Caltex Jalan Skudai,"GM 679, Lot 1283, Mukim Of Pulai, Tempat Batu 8, Jalan Skudai, 81300 Johor Bahru, Johor",1.5286218,103.6705535
+FAMILYMART Menara UOA Bangsar,"Unit 1-3A, 5, Jalan Bangsar Utama 1, Taman Bangsar, 59000 Kuala Lumpur",3.1277923,101.6782089
+FAMILYMART KSL City,"No LG-039, Lower Ground Floor, KSL CITY, 33, Jalan Seladang, Taman Abad, 80250 Johor Bahru, Johor",1.4858456,103.762422
+FAMILYMART Mahkota Parade,"Lot G11, Ground Floor, Mahkota Parade, No.1, Jalan Merdeka, 75000 Melaka",2.1897989,102.2518776
+FAMILYMART Petron Setia Impian,"No 2, Persiaran Setia Impian Bandar Setia Alam, Section U13, 40170 Shah Alam, Selangor",3.1017478,101.4450395
+FAMILYMART Toppen,"G01, TOPPEN Shopping Centre, No.33, Jalan Harmonium, Taman Desa Tebrau, 81100 Johor Bahru, Johor",1.553661,103.7976316
+FAMILYMART Nu Sentral (Expansion),"G39 & G40, Level Ground Floor, Nu Sentral Shopping Centre, Jalan Tun Sambanthan, Kuala Lumpur",3.1328277,101.6873496
+FAMILYMART Taman Ungku Tun Aminah,"No.2, Jalan Pendekar 13, Taman Ungku Tun Aminah, 81300 Skudai, Johor",1.5138963,103.6537589
+FAMILYMART Caltex Bandar Puteri Klang,"No. M, Lot 133826, Lebuh Sanggul 1/KS7, Bandar Puteri, 41200 Klang, Selangor",2.9885167,101.4694512
+FAMILYMART Senai Centrepoint,"No 32G, Jalan Terminal 5, 81400 Senai, Johor",1.6060675,103.6478418
+FAMILYMART Porto Historia (Expansion),"No. 10, Jalan KLJ 8, Taman Kota Laksamana Jaya, 75200 Melaka",2.1991605,102.2305149
+"FAMILYMART Prima Avenue, Cyberjaya","Prima 4, Jalan Teknokrat 5, 63000 Cyberjaya",2.9162609,101.6541978
+FAMILYMART Batu Berendam,"No. 36, Jalan Mutiara Melaka 2, Taman Mutiara, 75350 Batu Berendam, Melaka",2.2381593,102.2606701
+FAMILYMART Lagenda Melaka,"35, Jalan Lagenda 1, Taman 1 Lagenda  Melaka",2.2144631,102.2446863
+FAMILYMART Kebun Teh,"No. 20(GF), Jalan Kebun Teh 1, Pusat Perdagangan Kebun Teh, 80250 Johor Bahru, Johor",1.4857879,103.7540607
+FAMILYMART Bukit Baru,"19, Jalan PNBBU 1, Pusat Perniagaan Bukit Baru Utama, 75150 Bukit Baru, Melaka",2.2163858,102.2703715
+FAMILYMART Sky Avenue,"Lot No. T1-03 of Level G, SkyAvenue, Genting Highlands Resort, 69000 Genting Highlands, Pahang",3.4239007,101.7938018
+FAMILYMART Sunggala Gateway,"No. 18-G, Block B, Jalan PDS 1, PD Sunggala Gateway, Teluk Kemang, 71050 Port Dickson, Negeri Sembilan",2.4744956,101.8563308
+FAMILYMART Taman Gaya,"No.102, Jalan Gaya 1, Taman Gaya, 81800 Ulu Tiram, Johor",1.562605,103.8000509
+FAMILYMART Puncak Bertam,"2A, Jalan PB 1A, Taman Puncak Bertam, 75250 Melaka",2.2527724,102.2223758
+"FAMILYMART One Maxim, Sentul","G-3A One Maxim, No.1 Jalan Pelangi 2, 51000 Sentul, Kuala Lumpur",3.2054617,101.6895363
+"FAMILYMART Menara Ikhlas, Putrajaya","Ground Floor, Retail F&B 3, Menara Ikhlas, No. 17, Persiaran Perdana, Presint 3, 62100 Putrajaya",2.91877,101.6866381
+FAMILYMART Melaka Sentral,"TZB14/TZB15, Zone B Terminal, Melaka Sentral, Jalan Tun Abdul Razak, Peringgit, 75300 Melaka",2.2304278,102.2759631
+FAMILYMART Malim Jaya,"No. 13, Jalan Rahmat 2, Taman Malim Jaya, 75250 Melaka",2.2400746,102.2338044
+"FAMILYMART Seksyen 15, Bangi","No.17 GF, Jalan 15/1A, Seksyen 15, 43650 Bandar Baru Bangi, Selangor",2.9908839,101.7721143
+FAMILYMART Alamanda Shopping Centre,"Lot G03-G04, Alamanda Shopping Centre, Jalan Alamanda, Precinct 1, 62000 Putrajaya",2.9395291,101.7106171
+FAMILYMART Caltex Lebuh Spa,"Part of Lot 11723, Mukim Tanjung Minyak, Daerah Melaka Tengah, Melaka",2.2604032,102.2027234
+FAMILYMART Petron Kota Masai,"Jalan Jambu Utama, Taman Pasir Putih, 81700 Pasir Gudang, Johor",1.4874688,103.9503708
+FAMILYMART Sunway Velocity Medical Center,"L1,SunwayMedicalCentreVelocity, Lingkaran SV, Sunway Velocity, 55100 Kuala Lumpur",3.127871400000001,101.7248453
+"FAMILYMART Jalan Serampang, Pelangi","No.21, Jalan Serampang, Taman Sri Tebrau, 80050 Johor Bahru",1.4843498,103.7674843
+FAMILYMART Damansara Heights,"No. 28-G, Jalan Medan Setia 2, Plaza Damansara, Bukit Damansara, 50490 Kuala Lumpur",3.1490859,101.6532342
+FAMILYMART Olive Hill Business Park,"50-LG, Jalan BS 1/1, Pusat Perdagangan Olive Hill, Taman Bukit Serdang, Seksyen 1, 43300 Seri Kembangan, Selangor",3.0130103,101.6959612
+FAMILYMART Teluk Pulai,"No. 39, Ground Floor, Jalan Teluk Pulai, 41100 Klang, Selangor",3.0406501,101.4338393
+FAMILYMART Port Dickson,"No. 7, Ground Floor, Jalan Pusat Perniagaan Impian 1, Pusat Perniagaan Impian, 71009 Port Dickson, Negeri Sembilan",2.5554675,101.807716
+FAMILYMART Caltex Jalan Besar (Seri Kembangan),"Lot 49358, Jalan Besar, 43300 Seri Kembangan, Selangor",3.026786,101.710357
+"FAMILYMART Old Street, Batu Pahat","Old Street Commercial Centre, No. 22 (Ground Floor), Jalan Rotan Utama, Taman Sri Jaya, 83000 Batu Pahat, Johor",1.8639839,102.9538761
+FAMILYMART Taman Setia Indah,"No.2, Jalan Setia 3/2, Taman Setia Indah 81100 Johor Bahru, Johor",1.5722185,103.7568275
+FAMILYMART Caltex Taman Impian Emas,"Part of PTD 107072, Jalan Seri Impian 1, Taman Impian Emas, 81300 Skudai, Johor",1.5446924,103.6834109
+FAMILYMART Petron Rasah Kemayan,"PT9770, Persiaran Rasah Kemayan 1, Seremban 2, 70300 Seremban, Negeri Sembilan",2.6915803,101.8939841
+FAMILYMART Rawang,"No. A1-G, Jalan Rawang, Pusat Perniagaan R.E.E.F 2, 48000 Rawang, Selangor",3.3070778,101.58638
+FAMILYMART Jalan Pesta,"2 Jalan Pesta 1, Pusat Perdagangan Mega, Jalan Sakeh,84000 Muar",2.0507928,102.5833442
+FAMILYMART Caltex Setiawangsa,"12914, Jalan 37/56, Taman Setiawangsa, 54200 Kuala Lumpur, Selangor",3.1125743,101.7486201
+FAMILYMART Kota Emas,"No. 50-G, Jalan Emas 2, Pusat Perniagaan Kota Emas, 82000 Pontian, Johor",1.4801527,103.3996165
+"FAMILYMART Pusat Perniagaan Haji Manan, Kluang","108, Jalan Haji Manan, Kampung Masjid Lama, 86000 Kluang, Johor",2.0374656,103.3184849
+FAMILYMART Kuala Pilah,"PT 3173, Taman Melang Shoplot, Jalan Melang, 72000 Kuala Pilah, Negeri Sembilan",2.7361183,102.2254332
+FAMILYMART Parit Raja,"No 22, Jalan Universiti 1, Taman Universiti Parit Raja, Batu Pahat",1.848631,103.0741501
+FAMILYMART Karpal Singh Drive,"No.29C-01-19 & No. 29C-01-20, Maritime, Persiaran Karpal Singh, 11600 Jelutong, Penang",5.3978493,100.3292123
+FAMILYMART Caltex Jalan Kapar,"A portion of Lot 2740, Jalan Kapar Batu 5, 42100 Klang, Selangor",3.0869554,101.3970858
+FAMILYMART Caltex Setia Alam,"No.2, Jala Setia Utama AR U13/AR, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor",3.125615,101.4662574
+FAMILYMART Auto City,"Juru Interchange, Auto-City, No. 1824-G1 & 1823-G3, Jalan Perusahaan, 13600 Prai, Penang",5.3377823,100.4313922
+"FAMILYMART Jalan Burma, Penang","No.306-F, Jalan Burma,
+10350 Penang",5.432387900000001,100.3109549
+FAMILYMART Paradigm JB,"Lot GF-18,19,20,21&22, Ground Floor, Paradigm Mall, Johor Bahru, Johor",1.516239,103.6851193
+FAMILYMART Caltex Raja Uda,"Part of Lot 2219, Section 1, Jalan Raja Uda, Taman Tanjung Aman, 12300 Butterworth, Pulau Pinang",5.4299288,100.3845292
+"FAMILYMART Pekan Sentral, Pekan Nanas","No 111, Jalan Industri 8, Taman Perindustrian Pekan Nenas, 81500 Pontian, Johor",1.4957436,103.5253848
+FAMILYMART Farlim,"16E, Farlim Business Center, Lebuhraya Thean Teik, Bandar Baru Air Itam, 11500 Pulau Pinang",5.3914133,100.2834013
+FAMILYMART Tanjung Karang,"No 9, PB1/1 Pusat Bandar Tanjung Karang, 45500 Tanjung Karang, Selangor",3.4972926,101.199753
+FAMILYMART Caltex Sg. Dua,"Caltex Sg Dua North Bound, PMT 10359, KM 132.5, Lebuhraya Utara Selatan, 13600 Permatang Pauh, Pulau Pinang",5.422931699999999,100.4129362
+FAMILYMART Bandar Damai Perdana,"No. 18, Jalan Damai Perdana 1/9a, Bandar Damai Perdana, 43200 Cheras, Selangor",3.045922,101.7393
+FAMILYMART Petron Hulu Langat,"2, Jalan Hulu Langat Jaya 1, Taman Hulu Langat Jaya, 43200 Cheras, Selangor",3.0702141,101.7810077
+"FAMILYMART Vista Valley, Semenyih","No 20-G, Jalan Vista Valley 3, Semenyih Vista Valley, 43500 Semenyih, Selangor",2.9580434,101.8387359
+FAMILYMART Icon City,"No. 3(Ground & Mezzanine Floor), Jalan Icon City, Bukit Tengah, 14000 Bukit Mertajam, Pulau Pinang",5.3418376,100.4336764
+FAMILYMART Desa Pandan,"No. 4, Jalan 1/76D, Desa Pandan, 55100 Kuala Lumpur",3.1470036,101.7368822
+FAMILYMART Yong Peng,"No.2 (Tingkat Bawah), Jalan Cahaya Baru, Taman Sembrong, 83700 Yong Peng, Johor",2.0057756,103.0686512
+"FAMILYMART D'Garden, Batu Pahat","PTD 61251GF, Jalan Desa Botani 1, 83000 Batu Pahat, Johor",1.8680352,102.9326191
+FAMILYMART Bandar Saujana Putra,"41-G, Jalan SP1/1, Bandar Saujana Putra, 42610 Jenjarom, Selangor",2.952376,101.5783104
+FAMILYMART Sg Besar,"No.2, Jalan Bunga Loceng Kuning, Sungai Besar Sentral, 45300 Sungai Besar, Selangor",3.6732249,100.9848666
+FAMILYMART Caltex Taman Perling,"PTD 30504, Jalan Layang, Taman Perling, 81200 Johor Bahru, Johor",1.4760497,103.6792995
+FAMILYMART Sekinchan,"No. 12, Jalan Indah 2/1, Taman Indah 2, 45400 Sekinchan, Selangor",3.5023633,101.1044025
+FAMILYMART Chulia Street,"Ground Floor, Kim Mansion Building, 332, Chulia Street, 10200 Penang",5.4188215,100.3356597
+FAMILYMART Masjid Tanah,"SU1463, Jalan Masjid Tanah Ria Utama, Taman Masjid Tanah Ria, 78300 Masjid Tanah, Melaka",2.3515438,102.1162641
+FAMILYMART Jalan Perak,"338-D (Ground Floor), Jalan Perak, Taman Desa Green, 11600 Pulau Pinang",5.3995706,100.3148384
+FAMILYMART Taman Segar,"No 55, Jalan Manis 4, Taman Segar, 56100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",3.09022,101.7424458
+FAMILYMART Caltex Setia Sentral,"No.1, Jalan Setia Sentral, Pusat Perniagaan Setia Sentral, 14000 Bukit Mertajam, Penang",5.358440799999999,100.4211699
+FAMILYMART Tampin,"PS2, Jalan Besar, Pulau Sebang, 78000 Alor Gajah, Malacca",2.4640333,102.2307329
+FAMILYMART Gemas,"PT 4617 Bawah, Jalan Pekan Gemas, Pekan Gemas, 73400 Gemas, Negeri Sembilan",2.667298,102.5730619
+FAMILYMART Caltex Jalan Song Ban Kheng,"Lot 2551, Mukim, 10, Jalan Song Ban Kheng, 14000, Pulau Pinang",5.3516178,100.4500936
+FAMILYMART Jalan Kebun,"No.25, Jalan Kebun Nanas 7A/KS8, 41200 Klang, Selangor",2.9610008,101.5172183
+"FAMILYMART Sri Utama, Segamat","Pusat Komersial Sri Utama, NO.5 - 7, Jalan Utama 3/2, Taman Utama, 85000 Segamat, Johor",2.5146954,102.822582
+FAMILYMART Jasin,"JA 9954, Bandar Baru Jasin 3, 77200 Malacca",2.3108792,102.4306524
+"FAMILYMART Bukit Sentosa, Rawang","17-G, Seksyen BS1, Jalan Orkid 1F/2, Bukit Sentosa, 48300 Rawang, Selangor",3.4041135,101.5601014
+FAMILYMART Bukit Bakri,"No 3, Jalan Sinar Bakri 2, Pusat Perniagaan Sinar Bakri 84000 Muar, Johor",2.0412999,102.6562283
+FAMILYMART Caltex Salak South,"A portion of Lot 166, Salak South Garden, 57100 Kuala Lumpur",3.082905,101.6962898
+FAMILYMART Teluk Intan,"No.1B, Ground Floor, Laman Intan, Bandar Baru Teluk Intan, Jalan Changkat Jong, 36000 Perak",4.0204747,101.0234828
+"FAMILYMART Prima Saujana, Kajang","A-G-8, Jalan Prima Saujana 2, 1A, Seksyen 2, Taman Prima Saujana, 43000 Kajang, Selangor",3.06843,101.5162801
+FAMILYMART Caltex Segamat Baru,"A portion of No. 1-1A, Jalan Nagasari, Bandar Segamat Baru, 85000 Segamat, Johor",2.4932128,102.8524692
+FAMILYMART Bahau,"No. 1, Jalan Kiara 1, Pusat Perniagaan Kiara, 72100 Bahau, Negeri Sembilan",2.8100213,102.3952351
+"FAMILYMART Greentown, Ipoh","No. 4 (Ground Floor), Persiaran Greentown 10, Greentown Business Centre, 30450 Ipoh, Perak",4.5993756,101.0963634
+FAMILYMART Tangkak,"LC 171, Jalan Muar, Kampung Tanjong Batu 15, 84900 Tangkak, Johor",2.262259100000001,102.5366292
+FAMILYMART Caltex Taman Banting Baru,"Lot 2352, Jalan Sultan Abdul Samad, Taman Banting Baru, 42700 Banting, Kuala Langat, Selangor",2.8179297,101.5192484
+FAMILYMART Merlimau,"JC 19, Jalan BMU 1, Bandar Baru Merlimau Utara,77300 Merlimau, Melaka",2.1667789,102.4320607
+FAMILYMART Bentong,"P11,  Jalan MG1, Pusat Perniagaan Mutiara Gemilang,28700 Bentong, Pahang",3.5388664,101.9018859
+"FAMILYMART Caltex Taman Meru, Jelapang","Jln Jelapang, 30020 Ipoh, Perak",4.6585079,101.0706004
+"FAMILYMART Solaria Square, Bayan Lepas","2-G-3A, Solaria Square, Jalan Tun Dr. Awang, 11900 Bayan Lepas, Pulau Pinang",5.300138899999999,100.2661972
+FAMILYMART Caltex Batang Kali,"Part of Caltex Batang Kali, PT9610, Jalan Batang Kali, Seksyen 5 Bandar Baru Batang Kali, 44300 Batang Kali, Selangor",3.4525048,101.6640231
+"FAMILYMART Manhattan Business Centre, Station 18","Jalan Pengkalan Putra 1, Kampung Paya, 31650 Ipoh, Perak",4.5527176,101.0750511
+FAMILYMART Petron Taman Prima,"LOT 202, Susur GP Prima, Taman GP Prima, 81550 Gelang Patah, Johor",1.4779027,103.5835809
+FAMILYMART Petron Tanjung Labuh,"Lot 4459, BT 2, Jalan Tanjung Labuh, 83000 Batu Pahat, Johor",1.8373231,102.9468868
+FAMILYMART Sg Udang,"No 5, Jalan Kerambit 1, Bandar Baru Sungai Udang, 76300 Melaka",2.2904842,102.1402285
+FAMILYMART Cameron Centrum,"C-G-43, Presint 1, Cameron Centrum, 39100 Brinchang, Cameron Highlands, Pahang",4.49105,101.3885071
+FAMILYMART Tanah Rata,"41, Jalan Besar, Tanah Rata, 39000 Tanah Rata, Pahang",4.4706867,101.3766065
+FAMILYMART Summerton,"110-01-18, Persiaran Bayan Indah, 11900 Bayan Lepas, Pulau Pinang",5.338598999999999,100.308606
+FAMILYMART Bond Square,"No.19 & 19A, Jalan Niaga Simee 1, Pusat Perniagaan Simee, 31400 Ipoh, Perak",4.6159422,101.1165832
+"FAMILYMART Botanica CT Centre, Balik Pulau","Plot 14 & 15, Botanica CT Centre, 11000 Balik Pulau, Pulau Pinang",5.3722699,100.2186817
+"FAMILYMART Kg Jelatang, Alor Gajah","No.17, 1, Jalan Perniagaan Jelatang 1, Pusat Perniagaan Jelatang, 78000 Alor Gajah, Melaka",2.38425,102.2160609
+FAMILYMART Senawang,"No.160-G, Jalan Taman Komersial Senawang 1, Taman Komersial Senawang, 70450 Seremban, Negeri Sembilan",2.7044282,101.9865197
+FAMILYMART Klebang,"20, Jalan Nirwana 2, Taman Nirwana, 75200 Tanjung Kling, Melaka",2.2212444,102.1840461
+FAMILYMART Petron Taman Cahaya Masai,"Part of Lot 72090, Taman Cahaya Masai, 81700 Pasir Gudang, Johor",1.509184,103.9226389
+FAMILYMART Bercham,"Jalan Bercham, Taman Sri Kurau, 31400 Ipoh, Perak",4.6254267,101.1218623
+FAMILYMART USM Sg Dua,"723 S-G, Vanda Business Park, Jalan Sungai Dua, 11700 Gelugor, Penang",5.3519079,100.2991828
+FAMILYMART Taiping Sentral Mall,"G-01 & G-02 of Taiping Sentral Mall, No. 36, Jalan Istana Larut, 34000 Taiping, Perak",4.8660982,100.7313679
+FAMILYMART Kota Tinggi,"No. 9, Jalan Niaga Utama, 81900 Kota Tinggi, Johor",1.7293155,103.9008332
+FAMILYMART Gunung Lang,"NO 109C, Jln. Kuala Kangsar, 30010 Ipoh, Perak",4.6266259,101.0822352
+FAMILYMART Golden Triangle 2,"35-1-1 and 35-1-2, Golden Triangle 2, Jalan Dato' Ismail Hashim, 11900 Bayan Lepas, Penang",5.3294555,100.2748494
+FAMILYMART C-Mart Nibong Tebal,"Unit 62 & 63a, C Mart Nibong Tebal, Taman Perindustrian Nibong Tebal, 14300 Nibong Tebal, Penang",5.178556899999999,100.4813972
+FAMILYMART Caltex Tambun,"PT 126050, Jalan Tambun, 31400 Ipoh, Perak",4.6057469,101.1252209
+FAMILYMART Eco Majestic,"No. 43-1, Jalan Eco Majestic 10/1A, Eco Majestic, 43500 Semenyih, Selangor",2.9013313,101.8350087
+FAMILYMART Bandar Baru Uda,"No 29, Jalan Padi Ria, Bandar Baru Uda, 81200 Johor Bahru, Johor",1.5015824,103.7187232
+FAMILYMART Caltex Batu Maung,"Jalan Batu Maung, Diamond Valley Industrial Park, 11960 Batu Maung, Pulau Pinang",5.2802124,100.2718465
+FAMILYMART SOHO Ipoh,"Block D,G-9 Soho Ipoh, Jalan Sultan Idris Shah, 30000 Ipoh, Perak",4.592815,101.0898303
+FAMILYMART KL Trader Square,"11-G (GF), Plaza KL Traders Square, Block A, Jalan Gombak, 53000 Kuala Lumpur",3.2037668,101.7031904
+FAMILYMART Desaru,"155, Jalan Jelutong, Taman Desaru Utama, Bandar Penawar, 81930 Johor",1.572272,104.2197901
+FAMILYMART Caltex Hutan Melintang,"Lot 6853 Simpang Empat, 36400 Hutan Melintang, Perak",3.897421999999999,100.93821
+FAMILYMART Bandar Enstek,"No. 26, Jalan Timur 6 / 1A, Timur@Enstek, 71760 Bandar Enstek, Negeri Sembilan",2.7471301,101.7649457
+FAMILYMART Parit Buntar,"Unit G-6 & G-7, Kompleks Perniagaan Parit Buntar, No. 199, Jalan Taiping, 34200 Parit Buntar, Perak",5.1275084,100.4894099
+FAMILYMART Silibin,"Jalan Silibin, Taman Malcop, 30100 Ipoh, Perak",4.6090659,101.0604411
+FAMILYMART Raub,"Jalan Bukit, 27600 Raub, Pahang",3.7908087,101.8558132
+FAMILYMART Kota Warisan,"Kota Warisan, 43900 Sepang, Selangor",2.824222,101.6958172
+FAMILYMART Wisma UOA II,"Unit No. 1-9D & 1-9E, Level 1, Wisma UOA II, 21, Jalan Pinang, 50450 Kuala Lumpur",3.152796,101.7124988
+FAMILYMART Caltex Sunway Iskandar,"as Plot F21, Jalan Medini Selatan 1, Bandar Medini Iskandar, 79250 Iskandar Puteri, Johor",1.396597,103.6311497
+FAMILYMART Larkin Town Centre,"PTB 24504, Larkin Town Centre, Jalan Geroda 2/1, 81200 Johor Bahru, Johor",1.4915057,103.7347091
+FAMILYMART Pavilion Bukit Jalil,"Lot 1.47.00, Level 1, Pavilion Bukit Jalil, Pusat Bandar, 2, Persiaran Jalil Utama, Bukit Jalil, 57000 Kuala Lumpur",3.0502304,101.6709761
+FAMILYMART The Core,"No. 3, Jalan Teknologi 3/6B,Taman Sains Selangor,Sek 3, Kota Damansara,47810 Petaling Jaya, Selangor",3.1570698,101.5707966
+FAMILYMART Sg Siput,"No.2 & 3 ( Ground Floor ), Persiaran Persona 1 Medan Persona, 31100 Sungai Siput, Perak",4.8429421,101.1164452
+FAMILYMART Jenjarom,"No. 2, Jalan 2/21, Taman Seri Jaromas, 42600 Jenjarom, Selangor",2.6375074,101.7097511
+FAMILYMART Seri Botani,"No.2, Jalan Lapangan Siber 10, Bandar Cyber, 31350 Ipoh, Perak",4.5435414,101.1100597
+"FAMILYMART Eco Borealis, Batu Kawan","31-G & 33-G, Jalan Borealis 3, Pusat Komersial Borealis, 14100 Bandar Cassia, Pulau Pinang",5.2372523,100.4434624
+FAMILYMART Subang Bestari,"1-G, Jalan Nova U5/N, Subang Bestari Sek U5, 40150 Shah Alam, Selangor",3.1780063,101.5479855
+FAMILYMART Taman Yayasan,"No 15, Jalan PKY 1, Pusat Komersial Yayasan, 85000 Segamat, Johor",2.5476893,102.793637
+FAMILYMART Seremban Uptown 2,"No. 348, Jalan S2 B8 Uptown Avenue,
+Seremban 2, Seremban, Negeri Sembilan",2.6961408,101.9103793
+FAMILYMART Melati Utama,"37G, Jalan Taman Melati Utama 4, Taman Melati Utama, 53100 Wilayah Persekutuan Kuala Lumpur",3.2236192,101.730548
+FAMILYMART Southville,"Savanna Lifestyle Retail, Jalan BBLS 2 Bandar Baru Lembah Selatan Bandar Baru, Lembah Selatan, 43800 Dengkil, Selangor",2.9032814,101.7638013
+FAMILYMART Taman Bentong Prima,"P65-G, Jalan Prima 1, Pusat Komersial Bentong Prima, 28700 Bentong, Pahang",3.515007,101.914178
+FAMILYMART Caltex Puncak Alam,"PT 42663, Jalan Persiaran Puncak Alam 6, 42300 Bandar Puncak Alam, Selangor",3.230668,101.4508417
+FAMILYMART Pusat Perniagaan Putra Raub,"No. 111, Lorong Putra Raub 2, Pusat Perniagaan Putra Raub, 27600 Raub, Pahang",3.8071358,101.854473
+FAMILYMART Tanjung Bungah,"533b, Jalan Tanjung Bungah, 11200 Tanjung Bungah, Pulau Pinang",5.466442799999999,100.2864474
+FAMILYMART Jade Hills,"36, Jalan Dataran Jade 5, Jade Hills, 43000 Kajang, Selangor",2.9931393,101.7604648
+FAMILYMART Bandar Baru Sg Buloh,"No. 374, Jalan 1a/3, Bandar Baru Sungai Buloh, 47000 Sungai Buloh, Selangor",3.2115312,101.5648931
+FAMILYMART Bidor,"No. 2, (Ground Floor), PT 11166, No. 3, (Ground Floor), PT 11167, Jalan Tapah-Bidor, 35500 Bidor, Perak",4.111607999999999,101.287809
+FAMILYMART Caltex Teluk Air Tawar,"Jalan Teluk Air Tawar, Teluk Air Tawar, 13050 Butterworth, Pulau Pinang",5.4823325,100.3834819
+FAMILYMART Klebang Restu,"Laluan Klebang Restu 2, Medan Klebang Restu, 31200 Chemor, Perak",4.6830753,101.1214707
+FAMILYMART Tanjung Bungah,"533b, Jalan Tanjung Bungah, 11200 Tanjung Bungah, Pulau Pinang",5.466442799999999,100.2864474
+FAMILYMART Tapah,"103, Jalan Baldwin 3, Pusat Perniagaan Baldwin, 35000 Tapah, Perak",4.1958851,101.2624332
+FAMILYMART Pinggiran Batu Caves,"41-G Pinggiran Batu Caves, Jalan TPI 1/5, 68100 Batu Caves, Selangor",3.2513704,101.6926537
+FAMILYMART Pusat Bandar Putra Nilai,"Ground Floor, PT 12167, Jalan BBN 1/1F, Putra Nilai, 71800 Nilai, Negeri Sembilan",2.814084,101.797268
+FAMILYMART Caltex Jalan Pudu,"Jalan Pudu, Pudu, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",3.1357289,101.7123342
+FAMILYMART Kelapa Sawit,"No. 9(GF), Jalan Impiana 1, Taman Impiana, Kelapa Sawit, 81030 Kulai, Johor",1.6772575,103.5359737
+FAMILYMART Seri Iskandar,"No. 2 & 3 (Ground Floor), Persiaran SIBC 2, Seri Iskandar Business Centre, 32610, Seri Iskandar, Perak",4.3584023,100.9673324
+FAMILYMART Puchong Permai,"Taman Puchong Perdana, 47100 Puchong, Selangor",3.006959,101.604533
+FAMILYMART Maju Utama,"32, Lorong Maju Utama 1, Pusat Perniagaan Maju Utama, 14000 Bukit Mertajam, Pulau Pinang",5.351512700000001,100.4724681
+FAMILYMART Dagang Avenue,"16, Jalan Dagang B/3a, Taman Dagang, 68000 Ampang, Selangor",3.1487649,101.7544648
+FAMILYMART Hillpark Residence,"Bandar Teknologi Kajang, 43500 Semenyih, Selangor",2.9610891,101.8187105
+FAMILYMART Bandar Kinrara,"No. 53-G , Jalan BK 5A/2, Bandar Kinrara, 47180 Puchong, Selangor",3.0465965,101.6459561
+FAMILYMART Durian Tunggal,"DT 975, Pekan Durian Tunggal, 76100 Durian Tunggal, Melaka",2.313049,102.282323
+FAMILYMART Taman Mas Jaya,"No 21 (Ground Floor), Jalan Perniagaan Jaya, Pusat Perniagaan Mas Jaya, 84000 Muar, Johor",2.0688072,102.5814821
+FAMILYMART Bandar Baru Kampar,"No.2222 (Ground Floor), Jalan Batu Karang, Taman Bandar Baru, 31900 Kampar, Perak",4.328024,101.146166
+FAMILYMART Bukit Rambai,"No. 33, Jalan Rambai Jaya 29, Taman Rambai Jaya, 75260 Melaka",2.2635655,102.1892745
+FAMILYMART Caltex Temiang,"Caltex Temiang, Provisional Lot No. 3, Lot No. 40766, Persiaran Sri Pulai 2, 70400 Seremban, Negeri Sembilan",2.7481033,101.9430693
+FAMILYMART Bandar Tasik Puteri,"No. 106G, Jalan 7A/2, Medan Puteri, Bandar Tasik Puteri, 48020 Rawang, Selangor",3.2831672,101.4733921
+FAMILYMART Taman Lumut Indah 2,"No. 7 (Ground Floor), Jalan Lumut Indah 2/1, Taman Lumut Indah II, 32200 Lumut, Perak",4.2086409,100.6377238
+FAMILYMART Bangi Seksyen 7,"No.43 Jalan 7/7C, Seksyen 7, 43650 Bandar Baru Bangi, Selangor",2.9699452,101.774515
+FAMILYMART Alma,"No. 1 (Ground & Mezzanine), Persiaran Seri Impian, Pusat Perniagaan Mahkota Impian, 14000 Bukit Mertajam, Pulau Pinang",5.3181514,100.4763715
+FAMILYMART Petron Medan Sejahtera,"Stesen Minyak Petron, PT 50174 (Lot Lama 44434), Jalan Sitiawan-Lumut, 32000 Sitiawan, Perak",4.221017199999999,100.6708597
+FAMILYMART Caltex Ulu Yam,"A portion of PT 545, Kampung Batu 30, Mukim Hulu Yam, Daerah Hulu Selangor, Selangor Darul Ehsan",3.442373,101.632711
+FAMILYMART Wangsa Melawati,"No. 33-G, Jalan Wangsa Setia 1, Taman Wangsa Melawati, 53300 Kuala Lumpur",3.2096866,101.744048
+FAMILYMART Saujana Utama,"88G, Jalan Bidara 6/3, Saujana Utama 3, 47000 Sungai Buloh, Selangor",3.2020081,101.4874384
+FAMILYMART Kuala Sg Baru,"SI17, Jalan Kuala Sungai Baru Ilir Jaya Utama, Taman Sungai Baru Ilir Jaya, 78000 Alor Gajah, Melaka",2.366348,102.0512475
+FAMILYMART Caltex S2 Heights,"PT 27159, Jalan Rimbun Indah 2, S2 Heights, 70300 Seremban, Negeri Sembilan",2.7135175,101.8887609
+FAMILYMART Temerloh,"No. 4&6, Jalan Sudirman 1, Bandar Sri Semantan, 28000 Temerloh, Pahang",3.4490112,102.4153442
+FAMILYMART Convent,"NO. S7 & S12, Lot 92, Jalan Istana Kuning, 05000 Alor Setar, Kedah",6.1243365,100.368117
+FAMILYMART Caltex Tg Tokong,"A Portion of 5B, Mukim 18, Persiaran Tanjung Tokong, 10740 Pulau Pinang",5.4561444,100.3079791
+FAMILYMART TTDI Grove,"No. 70-1, Jalan TTDI Grove 1/1, Taman TTDI Grove, 43000 Kajang, Selangor",2.9962598,101.8138101
+FAMILYMART Pantai Remis,"16 (Ground Floor), Jln Pantai Makmur 2/1, Taman Pantai Makmur, 34900 Pantai Remis, Perak",4.4431241,100.6265169
+FAMILYMART Caltex Jalan Kuala Ketil,"No.10, Jalan Cindai Jaya 1A, Taman Cindai Jaya, 08000 Sungai Petani, Kedah",5.6249481,100.5322702
+FAMILYMART Ayer Tawar,"No.10 (Ground floor), Jalan Seri Sentosa 1, Taman Medan Seri Sentosa, 32400 Ayer Tawar, Perak",4.293178699999999,100.7527357
+FAMILYMART Batu Gajah,"No.11-G (Ground floor), Jalan Kemajuan, 31000 Batu Gajah, Perak",4.4725183,101.0410681
+FAMILYMART Mentakab,"No.64 & 65, Jalan Temerloh, 28400 Mentakab, Pahang",3.4837625,102.345794
+FAMILYMART Rengit,"No. 85 & 87, Lot 88 & 89, Jalan Besar, 83100 Rengit, Batu Pahat, Johor",1.6829032,103.1447597
+FAMILYMART IOI City 2,"Lot LG218, IOI City Tower Two Lebuh IRC, IOI Resort, 62502 Putrajaya, Selangor",2.9692327,101.7113346
+FAMILYMART Caltex Tandop,"Jalan Dato' Syed Omar, Kampung Teluk Bagan, 05050 Alor Setar, Kedah",6.1228439,100.3573713
+FAMILYMART Jerantut,"No. 4, Tingkat Bawah Lorong SU 1/1, 98, 27000 Jerantut, Pahang",3.9297464,102.3805758
+FAMILYMART Caltex Selama,"A portion of Caltex Petrol Station at Lot 5863, Jalan Selama Kedah, 34100 Selama, Perak",5.1645857,100.6741912
+FAMILYMART Lukut,"No. 23 (G), Jalan Hartamas 1, Taman Lukut Hartamas, 71010 Port Dickson, Negeri Sembilan",2.5682067,101.8288148
+FAMILYMART Iconic Point,"101-G & 103-G, Jalan Iconic Point, Iconic Point, 14100 Simpang Ampat, Pulau Pinang",5.2835499,100.4762989
+FAMILYMART Caltex Dengkil Bypass,"PT 3353, KM48.7, Jalan Pintasan Dengkil-Putrajaya (FT29) Arah Utara, 43800 Dengkil, Selangor Darul Ehsan",2.858864,101.6791481
+FAMILYMART Taman Sejati,"No. 3A & 5 (Ground Floor), Jalan Permatang Gedong, Taman Sejati Indah, 08000 Sungai Petani, Kedah Darul Aman",5.613192,100.4829565
+FAMILYMART SS15 (2),"No. 63 (Ground Floor), Jalan SS15/8A, SS15, 47500 Subang Jaya, Selangor",3.0741874,101.588873
+FAMILYMART Tanjung Malim,"Lot 232, Mukim Hulu Bernam Timur, District Muallim, Perak Darul Ridzuan",3.7567194,101.4949347
+FAMILYMART Caltex Lagenda Heights,"301, Jalan Legenda 1, Lagenda Heights, 08000 Sungai Petani, Kedah",5.66442,100.503516
+FAMILYMART Caltex AMJ Paya Rumput,"No. 17, Jalan Inang 4, Taman Paya Rumput Utama, Taman Seri Paya Rumput, 76450 Malacca",2.280088,102.2172546
+FAMILYMART Sitiawan,"No. 52 & 53 (Ground Floor), Lorong Bunga Ros 1, Taman Bunga Ros, 32000 Perak",4.212327,100.6930642
+FAMILYMART Ampang Business Centre,"Lot 12A, PT111, Kompleks Perniagaan Ampang, Sultanah Bahiyah Hwy, Taman Bahagia, 05050 Alor Setar, Kedah",6.1122407,100.3505128
+"FAMILYMART Temu Shop, Elmina","No.71 (GF), Jalan Eserina Y U16/Y, Elmina East, 40160 Shah Alam, Selangor",3.1850641,101.525894
+FAMILYMART Taman Samudra,"P13A-G, Prima Samudera, Jalan 11, Lorong Samudera Utara, Taman Samudra, 68100 Batu Caves, Selangor",3.2336087,101.6949692
+FAMILYMART Caltex Persiaran Mokhtar Dahari,"PT29780, Kg. Bukit Cherakah, Seksyen U15, Bukit Raja, 42200 Petaling Jaya, Selangor",3.1805577,101.449641
+FAMILYMART Sikamat,"No. 9 (Ground Floor), Jalan Seri Pandan 1 Taman Seri Pandan, Kampung Sikamat Lama, 70400, Negeri Sembilan",2.7475226,101.9714004
+FAMILYMART Dataran Selayang,"16-G, Jalan Dataran Selayang 1, Dataran Selayang, 68100 Batu Caves, Selangor",3.2377093,101.6738031
+FAMILYMART Lobak,"No. 13 (GF), Jalan PKL 2, Pusat Komersial Locak, 70200 Seremban, Negeri Sembilan",2.7273085,101.925913
+FAMILYMART Caltex Persiaran Mokhtar Dahari,"T29780, Kg. Bukit Cherakah, Seksyen U15, Bukit Raja, 42200 Petaling Jaya, Selangor",3.1805577,101.449641
+FAMILYMART Simpang Kuala,"No. 65 (Ground Floor), Jalan PSK 1, Pekan Simpang Kuala, 05400 Alor Setar, Kedah",6.0981864,100.364887
+FAMILYMART Radia,"G-23(i), Komersial Radia, Persiaran Tebar Layar, Bukit Jelutong, 40150 Shah Alam, Selangor",3.1015225,101.5364606
+"FAMILYMART Taman Tasik Indah, Kluang","No 126, Jalan Tasik Indah 1/4, Taman Tasik Indah, 86000 Kluang, Johor",1.9943949,103.2954252
+FAMILYMART Caltex Bandar Saujana Utama,"Lot PT 28807, Bandar Saujana Utama, Mukim Ijok, Daerah Kuala Selangor, Selangor",3.206441,101.4772587
+FAMILYMART Caltex Krubong,"A portion of Lot PT 12724 Mukim Krubong, Melaka Tengah, 75260 Melaka",2.2814744,102.2404869
+FAMILYMART Ferringhi Walk,"72C-G-2 & 72C-G-3, Jalan Batu Ferringhi, 11100 Batu Ferringhi, Pulau Pinang",5.4743532,100.2484735
+FAMILYMART KotaSas,"R-15, Tasek Commercial Centre, Kota Sultan Ahmad Shah, 25200 Kuantan, Pahang",3.875614,103.2746561
+FAMILYMART Kulim,"Plot 55 & 56 (Ground Floor), Landmark City Commercial Centre, Kulim, Kedah",5.383939499999999,100.5467987
+FAMILYMART Taman Sri Serdang,"11, Jalan 18/33A, Taman Sri Serdang, 43300 Seri Kembangan, Selangor",3.0087466,101.7146049
+FAMILYMART Paroi,"406, Persiaran Rajawali, Taman Paroi Jaya, 70400 Seremban, Negeri Sembilan",2.7305888,101.9852998
+FAMILYMART Gambir Square,"Lot No. A12, Gambir Square, Bandar Baru Bukit Gambir, 84700 Tangkak, Johor",2.2131932,102.6514076
+FAMILYMART Riverfront Kuantan,"Bangunan Lama MPK, Majlis, Jalan Tanah Putih, 25100 Kuantan, Pahang",3.7958508,103.3166403
+FAMILYMART Serai Wangi Mall,"Lot 54, No. 2500， Lorong Serai Wangi 4/10, Taman Serai Wangi III & IV, 09400 Padang Serai, Kedah",5.5235974,100.5446093
+FAMILYMART KLIA2 Domestic Departure,"S2-3-L11, Departure Level, Public Concourse (Landside), KLIA2, 64000 Sepang, Selangor",2.745312,101.684867
+FAMILYMART IM8,"B 138 & B 140 (Ground Floor), Lorong IM 8/33, Jalan Sungai Lembing, Bandar Indera Mahkota 8, 25200 Kuantan, Pahang Darul Makmur",3.830187999999999,103.306639
+FAMILYMART Pusat Perniagaan Barry Kuala Lipis,"No. 3 & 4, Jalan Pusat Perniagaan Barry, Pusat Perniagaan Barry @ Kuala Lipis, 27200 Lipis, Pahang Darul Makmur",4.188969999999999,102.049451
+FAMILYMART Caltex Mayang Permai,"A portion of Stesen Minyak Mayang Pasir Permai, No. 23, Jalan Tengah, Bayan Baru, Mukim 12, 11950 Bayan Lepas, Pulau Pinang",5.319753,100.284442
+FAMILYMART Simpang Renggam,"13, Jalan Kijang, Taman Mohd Yassin, 86200 Simpang Renggam",1.8224809,103.3143511
+FAMILYMART Desa Petaling,"39-G, Jalan 1/125D, Desa Petaling, 57100 Kuala Lumpur",3.0830866,101.7045634
+FAMILYMART Pengerang,"No. 87-1, Ground Floor, Jalan Hee Seng, Sungai Rengit, 81600 Pengerang, Kota Tinggi, Johor",1.3507943,104.2236691
+FAMILYMART Putra Heights,"No. 19, Jalan Putra Mahkota 7/6c, Putra Heights, 47650 Subang Jaya, Selangor",2.9963773,101.57355
+FAMILYMART Sunway Pyramid,"OB2.G.U2A, Oasis Boulevard, Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor",3.0730281,101.6086228
+FAMILYMART Caltex Kuala Selangor,"Lot 139 Batu 2, Jalan Kuala Selangor, Klang, 45000 Kuala Selangor, Selangor",3.3049581,101.3026377
+FAMILYMART Petron Genting Permai,"Part of Petron Genting Permai, Lot 21078, Jalan Permai 2, Genting Permai Avenue Bentong, 69000 Genting Highlands, Pahang",3.3872015,101.7731274
+FAMILYMART Jerai Plaza,"Lot No. M1, 31, 32 & 33, Jerai Plaza, No. 1, Taman Jerai Maju 1, 08300 Gurun, Kedah",5.8193581,100.4822166
+FAMILYMART Caltex Kuantan ByPass By Seng Group,"Kampung Batu Tujuh, 25150 Kuantan, Pahang",3.783467,103.2515039
+FAMILYMART Bandar Country Homes,"No. G-15, Avia Plus, Jalan Desa Utama, Bandar Country Homes, 48000 Rawang, Selangor",3.323572,101.526664
+FAMILYMART Rembau,"No. 9-G (Ground Floor), Jalan RS 1, Rembau Sentral, 71309 Pekan Rembau, Negeri Sembilan",2.5896114,102.0984042
+FAMILYMART Jalan Beserah,"B-272, Ground Floor, Jalan Beserah, 25300 Kuantan, Pahang",3.835633,103.35003
+FAMILYMART Sendayan,"No. 21, Ground Floor Persiaran Metro Park, Bandar Sri Sendayan, 71950, Negeri Sembilan",2.6905651,101.8506361
+FAMILYMART Taman Putra,"No. 39, Jalan Bunga Tanjung 9C, Taman Putra, 68000 Ampang, Selangor",3.1205026,101.7628497
+FAMILYMART Kuantan Perdana,"A-7, Ground Floor, Jalan Tun Ismail 1, 25000 Kuantan, Pahang",3.8154545,103.3284286
+FAMILYMART Caltex Bukit Raja,"Lot 53237 (PT 53555), Persiaran Batu Belah, Bandar Bukit Raja Stage 1, Mukim Kapar, Daerah Klang, Selangor",3.0821584,101.4332419
+FAMILYMART Taman Tas,"B-24, Ground & 1st Floor, Lor Pandan Damai, 2/201, Taman Tas, 25150 Kuantan, Pahang",3.7713286,103.2308938
+FAMILYMART Petron Chepor Indah,"A portion of Plot 189141, Plot 228, Jalan Chepor Indah 23, Desa Chepor Indah, 31200 Chemor, Perak",4.705451000000001,101.093849
+FAMILYMART Caltex Jitra,"Part of Ground Floor, Bangunan Stesen Minyak Caltex, Jalan Jitra, Daerah Kubang Pasu, 06000 Kedah",6.2361416,100.4200749
+FAMILYMART Caltex Jalan Semenyih,"Part of Caltex Jalan Semenyih, 39822 Jalan Semenyih, 43000 Kajang, Selangor",2.9907331,101.8002637
+FAMILYMART Balok Sentral,"Lot Unit No. 5 &  No. 6, HSM 14457, PT 21214, Mukim Sungai Kaang, Kuantan, Pahang",3.8200843,103.3322247
+FAMILYMART Caltex Meranti Jaya,"Lot 108524, Jalan Meranti Jaya, Taman Meranti Jaya, 47120 Puchong, Selangor",2.9790332,101.6084252
+FAMILYMART SS2,"No 10, Jalan SS 2/67, 47300 Petaling Jaya, Selangor.",3.1190339,101.6230316
+FAMILYMART Amanjaya Walk,"Amanjaya, 1, Jalan Badlishah, Bandar Amanjaya, 08000 Sungai Petani, Kedah",5.6617112,100.5039513
+FAMILYMART Caltex Seremban 2 City Park,"Caltex S2, Lot No. 33692, Geran 175307, Persiaran S2/1, Seremban, Negeri Sembilan",2.6882309,101.9125195
+FAMILYMART LRT Masjid Jamek,"K4- Concourse Level, LRT Masjid Jamek Station, Kuala Lumpur",3.14975,101.69682
+FAMILYMART Arau,"Lot G43, C-Mart, Kompleks Arau, Jalan Tiga, Arau, 02600 Arau, Perlis",6.428465999999999,100.2735717
+FAMILYMART Mergong,"No. 181 (Ground Floor), Susuran Bandar Baru Mergong, Bandar Baru Mergong, 05150 Alor Setar, Kedah",6.1294573,100.3417895
+FAMILYMART Taipan USJ,"No.33, Jalan USJ 10/1, UEP Subang Jaya, 47620 Selangor",3.0477284,101.5846947
+FAMILYMART Bandar Baru Salak Tinggi,"No. 2G, Jalan ST 1C/4, Medan 88, Bandar Baru Salak Tinggi, Sepang, 43900 Selangor",2.8114497,101.7372324
+FAMILYMART Alam Impian,"33, Jalan Panglima Hitam M35/M, Alam Impian, 40470 Shah Alam, Selangor",3.0265353,101.5157396
+FAMILYMART Petron Indera Sempurna,"Petron Indera Sempurna, Land held under HSM 2520, Lot PT 3475, Mukim Penor, Daerah Kuantan, Negeri Pahang",3.731889,103.2683281
+FAMILYMART Caltex Machang Bubok,"A portion of Caltex Petrol Station, Lot 847, Mukim 17, Seberang Perai Tengah, 14000 Pulau Pinang",5.360796,100.5014909
+FAMILYMART Damansara Damai,"No. N-012, Jalan PJU 10/2B, Damansara Damai, 47830 Petaling Jaya, Selangor",3.195468,101.5934139
+FAMILYMART GATEWAY@KLIA2 Departure,"L3-12 & 13, Level 3, Gateway @ KLIA 2, KLIA 2, KL International Airport, Jalan KLIA 2/1, 64000, Sepang, Kuala Lumpur",2.7456408,101.685025
+FAMILYMART R&R Seremban SB,"North-South Expy, 71900 Labu, Negeri Sembilan",2.7585757,101.8423293
+FAMILYMART Petron Jalan Diary,"Jalan Seri Ampang, Taman Sri Ampang, 31350 Ipoh, Perak",4.581251300000001,101.1275383
+FAMILYMART Desa Setapak,"20, Jalan 14/27B, Taman Desa Setapak, 53300 Kuala Lumpur",3.2057453,101.7329932
+FAMILYMART Petron Taman Desa Aman,"Part of Petron Taman Desa Aman, Lot 60016, HS(D) 69977, Taman Desa Aman, Pekan Padang Meha, 09400 Daerah Kulim, Kedah",5.505304,100.6240619
+FAMILYMART Telok Mas,"No:23, Jalan Seri Emas 1, Taman Seri Telok Emas, 75460 Melaka",2.1620432,102.3235431
+FAMILYMART Kajang,"No.26 (Ground floor), Jalan Tun Abdul Aziz, 43000 Kajang, Selangor",2.9910333,101.7898203
+"FAMILYMART You City Retail, Taman Suntex","Lot No. L1-09, First Floor, Youcity Retail",,
+FAMILYMART The Bayana Food Court,"Unit 23B-01-02, No. 23B, Medan Bayan Lepas, Taman Perindustrian Bayan Lepas Fasa 4, 11900 Pulau Pinang",5.3294215,100.2776473
+FAMILYMART Jengka,"G-08 G-09, Loring Tarbp 6, Tun Abdul Razak Business Park, Bandar Jengka, 26400 Maran, Pahang",3.7552993,102.5403374
+FAMILYMART Kuala Nerang,"Plot 12 & 13, Kompleks Kuala Nerang, Jalan Kuala Nerang, Pekan Baru, 06300 Kuala Nerang, Kedah",6.2573006,100.6089426
+FAMILYMART Caltex Eco Ardence,"Part of Caltex Eco Ardence, PT 39738, Mukim Bukit Raja, Daerah Petaling, Negeri Selangor",3.0898909,101.4774463
+FAMILYMART Gateway@KLIA2 Arrival,"L2-96 & L2-97, Level 2, Gateway@KLIA2, Terminal KLIA2, KL International Airport, Jalan KLIA 2/1, 64000 KLIA Sepang, Selangor",2.7456408,101.685025
+FAMILYMART Uptown Tower 3,"Uptown Tower 3 No. 16G, Jalan SS 21/39, Damansara Utama, 47400 Petaling Jaya, Selangor",3.1365827,101.6214315
+FAMILYMART Pearl City Mall,"G18, Pearl City Mall, Persiaran Mutiara 4, Bandar Tasik Mutiara, 14120 Simpang Ampat, Pulau Pinang",5.277365899999999,100.4909111
+FAMILYMART R&R Rawang NB,"RWGNB-16, KM440.0, R&R Rawang Northbound, PLUS Highway, 48000 Rawang, Selangor",3.3295795,101.5582227
+FAMILYMART Duyung Bestari,"NO 7,7-1, Jalan TDB 6, Taman Duyong Bestari, 76460 Melaka",2.4520234,102.334934
+FAMILYMART C-Mart Jitra,"No. G1, Kompleks BDI Jitra, Plot 21, Jalan Industri Darulaman 1, Kawasan Perusahaan Bandar Darulaman, 06000 Jitra, Kedah",6.2528755,100.4280202
+FAMILYMART Gunung Rapat,"264, Jalan Dato Raja Nazrin Shah, Gunung Rapat, 31350 Ipoh, Perak",4.576511,101.108169
+FAMILYMART Medan Idaman,"62A-G & 62A-1, Jalan Jernai 2, Medan Idaman, 53100 Kuala Lumpur",3.2119986,101.7115658
+FAMILYMART Shah Alam Seksyen 18,"27G, Jalan Pinang B, 18/B, Seksyen 18, 40000 Shah Alam, Selangor",3.0444785,101.5180281
+FAMILYMART Damansara Jaya,"No. 51, Jalan SS22/19, Damansara Jaya, 47400 Petaling Jaya, Selangor",3.1269852,101.6155013
+FAMILYMART Pokok Sena,"No.2 (Ground floor), Kompleks Perniagaan Sena Sentral, Bandar Pokok Sena, 06400 Alor Setar, Kedah",6.1783239,100.5292723
+"FAMILYMART Taman Tuanku Haminah, Sg Petani","No. 37 (Ground Floor), Jalan Tuanku Haminah, Jalan Kelab Cinta Sayang, 08000 Sungai Petani, Kedah",5.6532084,100.5122489
+FAMILYMART Nadi Putrajaya,"No. 58, Jalan Diplomatik, Presint 15, 62000 Putrajaya",2.9454899,101.7236659
+FAMILYMART Kangar Jaya,"No.8 & 10 (Ground Floor), Jalan Kangar Jaya 1, Kangar Jaya, Jalan Tuanku Syed Putra, 01000 Kangar, Perlis",6.4489727,100.2001161
+FAMILYMART Equine Park,"No. 11-G, Equine Boulevard, Jalan Equine 1A, Taman Equine, 43300 Seri Kembangan, Selangor",2.996483,101.6784432
+FAMILYMART Bloomsvale Shopping Gallery,"G-012, Bloomsvale Shopping Gallery, Jalan Puchong, 58200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",3.0757007,101.660875
+"FAMILYMART Ecohill Taipan, Semenyih","No.28,-1 (Ground Floor), Jalan Ecohill 1/5A, Seta Ecohill, 43500 Semenyih, Selangor",2.9262119,101.8549614
+FAMILYMART Bakar Arang,"No. A186 (Tingkat Bawah), Jalan Baiduri 3, Taman Baiduri, 08000 Sungai Petani, Kedah",5.6282521,100.4799778
+FAMILYMART Paradigm Mall,"Lot CF-08, Concourse Floor, N0 1, Jalan SS7/26A, Kelana Jaya, 47301 Petaling Jaya, Selangor",3.1054798,101.5962289
+FAMILYMART Petron Rasa,,,
+FAMILYMART Teluk Cempedak,"Unit No. 1, Ground Floor, Shoplex Tree under Pantai Teluk Chempedak, 25050 Kuantan, Pahang",3.8129463,103.3720334
+FAMILYMART Bangi Seksyen 9,"No.23, Ground Floor, Jalan Medan Pusat 2D, Seksyen 9, 43650 Bandar Baru Bangi, Selangor",2.9637548,101.7532536
+FAMILYMART Yan,"No. 7 (Ground Floor), Susuran Seri Bayu, Kompleks Perniagaan Seri Bayu, 06900 Yan, Kedah",5.8044044,100.3764411
+FAMILYMART Angsana Johor Bahru Mall,"Lot L1.14 & 15, Level 1, Angsana Johor Bahru Mall, Pusat Bandar Tampoi, Johor Bahru, Johor",1.4957614,103.7056613
+FAMILYMART KIP Mall Melaka,"L1-A006, KIP Mall Melaka, Jalan Tun Fatimah, 75250 Bachang, Melaka",2.2339922,102.2488802
+FAMILYMART Dataran Puchong,"No: A-G-12, Block A, Dataran Puchong, Jalan PU 7/1, Taman Puchong Utama, 47140 Puchong, Selangor",2.9909128,101.6175562
+FAMILYMART Taman Sri Manja,"No. 33, Ground Floor, Jalan PJS 3/48, Taman Sri Manja, 46000 Petaling Jaya, Selangor",3.0733257,101.6482701
+FAMILYMART Bandar Seri Putra,"No.12, Ground Floor, Jalan Seri Putra 1/4, Bandar Seri Putra, 43000 Bangi, Selangor",2.8849891,101.7902383
+FAMILYMART Caltex Batu Kawan,"A portion of Caltex Petrol station, Lot 21623 (Lot Lama Plot 3) MK13, Batu Kawan, Seberang Perai Selatan, Pulau Pinang",5.270447,100.4196629
+FAMILYMART Simpang Pulai,"No.85 & 87 (Ground Floor), Jalan Pusat Perniagaan Pulai 1, Pusat Perniagaan Pulai, 31300 Kampung Kepayang, Perak",4.5277776,101.1268823
+FAMILYMART Jalan Pejabat,"1106, Jalan Pejabat, 20200 Kuala Terengganu, Terengganu",5.329547199999999,103.1430425
+FAMILYMART Gleneagles KL (Lot 4 & 4A),"Lots 4 & 4A (Alfresco), Block B, Gleneagles KL",3.1609715,101.7401221
+FAMILYMART Kota Masai,"No 7A, Jalan Ekoperniagaan 8, Taman Kota Masai, 81700 Pasir Gudang, Johor",1.4854138,103.9369429
+FAMILYMART Sunway Putra Mall,"Unit No 1.019B, First Floor, Sunway Putra Mall, 40, Jalan Putra, Chow Kit, 50350 Kuala Lumpur",3.1665524,101.6924341
+FAMILYMART KIP Mall Desa Coalfield,"LG28, KIP Mall Desa Coalfields, Jalan DC 4/5, Desa Coalfields, 47000 Sungai Buloh, Selangor",3.2355597,101.4896135
+FAMILYMART Caltex Egate,"1, Lebuhraya Tun Dr Lim Chong Eu, Seksyen 4 Jelutong, 11600 Georgetown, Pulau Pinang",5.3752999,100.3152707
+FAMILYMART Caltex Nusa Sentral,"A portion of Caltex Nusa Sentral, 11, Jalan Nusa Sentral, Taman Nusa Sentral, 79100 Iskandar Puteri, Johor",1.464957,103.6229629
+FAMILYMART Gravitas,"B2-G-1, Elevate Gravitas, Jalan Baru, 13700 Bukit Mertajam, Pulau Pinang",5.3693936,100.4169489
+FAMILYMART IOI Mall Puchong,"G47, Ground Floor, IOI Mall Puchong, Jalan Puchong, Bandar Puchong Jaya, 47170 Puchong, Selangor",3.0459312,101.6186159
+FAMILYMART Taman Prominence,"No.57 (Ground Floor), Lorong Perda Utama 3, Taman Prominence, 14000 Bukit Mertajam, Pulau Pinang",5.365896999999999,100.4277356
+FAMILYMART DPulze,"Lot-21B, Dpulze, Lingkaran Cyber Point Timur, Cyber12, 63000 Cyberjaya, Selangor",2.9220548,101.650968
+FAMILYMART Dataran Sunway,"15-1, Jalan PJU 5/12, Dataran Sunway, Kota Damansara, 47810 Petaling Jaya, Selangor",3.1532887,101.5931129
+"FAMILYMART Kelang Lama Square, Kulim","No. 33 (Ground Floor), Jalan Kelang Lama Square 1, Kelang Lama Square, 09000 Kelang Lama Kulim, Kedah",5.3871595,100.5684913
+FAMILYMART Cabang Tiga,"Unit 44 & 45, Tingkat Bawah, Pusat Komersial Cabang Tiga, 21000 Kuala Terengganu, Terengganu",5.313869,103.1191492
+"FAMILYMART Taman Bendahara, Kuala Selangor","No. G-22A (Ground Floor), Jalan Bendahara 1A, Taman Bendahara, 45000 Kuala Selangor, Selangor",3.3217428,101.2669085
+FAMILYMART Denai Alam,"No.15-1 Jalan Elektron J U16/J ,Seksyen U16, Denai Alam, 40160 Shah Alam",3.1614552,101.5122807
+FAMILYMART Aeon Taman Maluri,"Lo G01, Ground Floor, Aeon Taman Maluri Shopping Centre, Jalan Jejaka, Taman Maluri, Cheras, 55100 Kuala Lumpur",3.1259253,101.7283988
+FAMILYMART Kuala Kangsar,"No. 70-C Ground Floor, Jalan Kangsar, 33000 Kuala Kangsar, Perak",4.7707014,100.941657
+FAMILYMART Pagoh Jaya,"No. 23, Ground Floor, Jalan Pagoh Jaya 1, Pusat Perniagaan Pagoh Jaya, Pagoh, 84500 Muar, Johor",2.1308144,102.71499
+FAMILYMART TTDI,"No. 27B, Ground Floor, Jalan Tun Mohd Fuad 3, Taman Tun Dr Ismail, 60000 Kuala Lumpur",3.1412992,101.6279532
+FAMILYMART Benut,"PTB 6309, No. 36, Jalan Mutiara 4, Pusat Perniagaan Benut, 82200 Benut, Pontian, Johor",1.6491816,103.2604554
+"FAMILYMART Caltex Taman Bahtera, Hulu Bernam","A portion of Caltex Taman Bahtera Hulu Bernam, No.1, Jalan Bahtera Utama, Taman Bahtera 44110 Hulu Bernam, Selangor",3.6722439,101.5335187
+FAMILYMART M Vertica,"G13A, Residensi M Vertica, 555, Jalan Cheras, Taman Pertama, 56000 Kuala Lumpur",3.1185411,101.7272555
+FAMILYMART Bangi Avenue,"No. 1B, Jalan Bangi Avenue 5, Taman Bangi Avenue, 43000 Kajang Selangor",2.9015708,101.7940037
+FAMILYMART Caltex SIP Sepang,"Part of Lot 3365 Mukim Labu, Daerah Sepang, Selangor",2.788349,101.7099479
+FAMILYMART Chukai Kemaman,"Lot 5666 & 5667, Jalan Kubang Kurus, 24000 Chukai Kemaman, Terengganu Darul Iman",4.2232205,103.4198757
+FAMILYMART Kepong,"No.143, (Ground Floor), Jalan Rimbunan Raya 1, Laman Rimbunan Kepong, 52100 Kuala Lumpur",3.2112162,101.6494756
+FAMILYMART Muadzam Shah,"No. 27, Jalan PMS 3 1/1, Taman Perindustrian Muadzam Shah 3, 26700 Muadzam Shah, Pahang",3.095286,103.0834236
+"FAMILYMART GMall, Terminal Bersepadu Gombak","L2-7, Level 2 @ GMall, Terminal Bersepadu Gombak, Jalan Lingkaran Tengah 2, Gombak, 68100 Batu Caves",3.2301496,101.7252143
+FAMILYMART R&R Tapah SB,"North-South Expy, 35000 Tapah, Perak",4.198096,101.281069
+FAMILYMART TTDI Jaya,"No. 23, Jalan Opera F U2/F, TTDI Jaya, Seksyen U2, 40150 Shah Alam, Selangor",3.0979365,101.5561299
+FAMILYMART IOI City Mall,"LG-72, Lower Ground Floor, IOI City Tower Two, Lebuh IRC, IOI Resort City, 62502 Putrajaya, Sepang, Selangor",2.9692327,101.7113346
+FAMILYMART Seksyen 9,"NO. 15, Tengku Ampuan Zabedah E9/E, Seksyen 9, 40100 Shah Alam, Selangor",3.0409733,101.5468966
+FAMILYMART Taman Sri Muda,"No. 2G, Jalan Makmur 25/64, Taman Sri Muda, Seksyen 25, 40400 Shah Alam, Selangor",3.0319715,101.5356278
+FAMILYMART Tasek Gelugor,"No. 129 & 131 (Ground Floor), Jalan Tasek Gelugor Utama 1, Taman Tasek Gelugor Utama, 13300 Tasek Gelugor, Pulau Pinang",5.4961094,100.514341
+FAMILYMART KTCC,"G-36, G-37 & G-38, Ground Floor, KTCC Mall, Muara Selatan, 20000 Kuala Terengganu",5.3331427,103.149465
+FAMILYMART Tropicana Aman,"43G, Jalan Aman Sinaria 2, Bandar Tropicana Aman, 42500 Telok Panglima Garang, Selangor",2.9086581,101.4662936
+FAMILYMART Lotus Sungai Petani Utara,"Lot 19, Ground Floor, Lotus's Sg. Petani, 300, Jalan Lagenda 1, Lagenda Heights, 08000 Sungai Petani, Kedah",5.662139799999999,100.5028165
+FAMILYMART Setia Alam (Prima),"22-1-1, Jalan Setia Prima B U13/B, Sek U13, Setia Alam, 40170 Shah Alam",3.0968086,101.4456987
+FAMILYMART Caltex Anggun City,"A portion of PT 4384, Persiaran Anggun, Taman Anggun, 48000 Rawang, Selangor",3.3250614,101.5412126
+FAMILYMART Taman Maluri,"No.267, Jalan Mahkota, Taman Maluri, Cheras 55100 Kuala Lumpur",3.1295858,101.7316181
+"FAMILYMART Anjung Warisan, Pekan","No. 1A Tingkat Bawah, Bangunan Anjung Warisan (Tingkat Bawah), Jalan Sultan Abdullah, 26600 Pekan, Pahang",3.4914148,103.3942336
+FAMILYMART Sentral Behrang,"No. 27-C (Ground Floor), Jalan Sentral 1, Sentral Behrang, 35950 Behrang Stesen, Perak",3.7640208,101.4395931
+FAMILYMART Bukit Tinggi 2,"No. 57 (Ground Floor), Lorong Batu Nilam 21B, Bandar Bukit Tinggi, 41200 Klang",2.9977954,101.4430277
+FAMILYMART Permas Jaya,"No.14, Jalan Permas10/7, Bandar Baru Permas Jaya, 81750 Masai, Johor",1.4961649,103.8146562
+FAMILYMART Banting,"Np. 1(G), Jalan Cemerlang 4, 42700 Banting, Selangor",2.8127458,101.5080218
+FAMILYMART Pendang,"No. 38&39 (Ground Floor), Jalan Sukamari, Taman Sukamari, 06700 Pendang, Kedah",5.986618099999999,100.4817521
+FAMILYMART Shah Alam Seksyen 7,"No 17, Jalan Plumbum R7/R, Seksyen 7, 40000 Shah Alam, Selangor",3.0679537,101.4896911
+FAMILYMART Taman Adda,"No 89, Jalan Adda 3/1, Taman Adda, Adda Heights, 81100 Johor Bahru, Johor",1.5464018,103.7481595
+FAMILYMART Sri Permaisuri,"No 61, Jalan Dwitasik 1, Dataran Dwitasik, Bandar Sri Permaisuri, 56000 Kuala Lumpur",3.100847,101.712486
+FAMILYMART Pucak Jalil,"74G, Jalan PJU 3/2, Taman Puncak Jalil, Bandar Putra Permai, 43300 Seri Kembangan, Selangor",3.0147098,101.6763003
+"FAMILYMART Caltex Precinct 14, Putrajaya","Caltex Precint 14, Lot PT 9029, Presint 14, Bandar Putrajaya, Daerah Putrajaya, Wilayah Persekutuan",2.9520333,101.7296931
+FAMILYMART Gombak,"No 13G (Ground Floor), Jalan Prima SG 1, Prima Sri Gombak, 68100, Batu Caves Selangor",3.238582,101.6997386
+FAMILYMART Tunjong,"PT676, Jalan Kuala Krai, Bandar Baru Tunjong, 16100 Kota Bahru, Kelantan",6.0710548,102.237646
+FAMILYMART Taman Selayang Utama,"No 3, Jalan SU 10, Taman Selayang Utama, 68100 Batu Caves, Selangor",3.2372191,101.6434936
+FAMILYMART Setia Tropika,"3, Jalan Setia tropica 1/15, Tmn Setia tropika, 81200 Johor Bahru, Johor",1.5112001,103.7448829
+FAMILYMART KSL Avenue,"No. 1, Ground Floor, KSL Avenue, No. 1, Jln Bestari 9/KS09, Bandar Bestari, 41200 Klang Bandar Diraja, Selangor",2.958099,101.4649693
+FAMILYMART Wakaf Che Yeh,"PT676, Jalan Kuala Krai, Bandar Baru Tunjong, 16100 Kota Bahru, Kelantan",6.0710548,102.237646
+FAMILYMART Gateway@KLIA2 Arrival (2),"l2-27, 29 &30, Level 2, gateway@klia2, Arrival Hall, Terminal KLIA2, KL International Airport, Jalan KLIA 2/1, 64000 KLIA, Sepang, Selangor",2.7456408,101.685025
+FAMILYMART Ayer Keroh,"No. 3, Jalan Komersial TAKH 2, Taman Ayer Keroh Heights, Melak, Taman Muzaffar Shah, 75450 Malacca",2.2532728,102.2912256
+"FAMILYMART Guar Chempedak, Guar Utama","No.1-G25 & 1-G26A, Ground Floor, Kompleks Perniagaan Guar Utama, Jalan Guar Utama 1, 08800 Guar Chempedak, Kedah",5.859697499999999,100.4550449
+FAMILYMART Kuala Krai,"PT 5687 & PT 5688, Lebuh Raya Kuala Krai-Gua Musang, 18000 Kuala Krai, Kelantan",5.4777841,102.2090224
+FAMILYMART Eco Botanic,"No 74, Jalan EkoBotanic 3/2, Taman Eko Botani, 79100 Nusajaya, Johor",1.4392556,103.62022
+"FAMILYMART Terminal Bas, KT","No. 1D, Jalan Syed Hussein, 20100 Kuala Terengganu, Terengganu",5.3324276,103.1377246
+"FAMILYMART Sura Gate, Dungun","Lot 9940, Sura Gate Business Center, 23000 Dungun, Terengganu",4.7584754,103.4177991
+"FAMILYMART Peramu, Pekan","Standalone Building in front of Fresh Choice, Lot 2233, Kawasan Perindustrian Peramu, Pekan, Pahang",3.5629183,103.3790825
+"FAMILYMART Wangsa Link, Wangsa Maju","12A, Jalan Wangsa Delima 11, Wangsa Link, Wangsa Maju, 53300 Kuala Lumpur",3.197219,101.7414984
+FAMILYMART Dataran Glomac,"F-G-02, Jalan SS6/ 5B, Dataran Glomac, Kelana Jaya, 47301 Petaling Jaya, Selangor",3.1026366,101.6002001
+FAMILYMART Porto Historia,"No. 8, Jalan KLJ 8, Taman Kota Laksamana Jaya, 75200 Melaka",2.1991577,102.2306518
+FAMILYMART Gelang Patah,"No. 27-01, Jalan Nusaria 11/1, Taman Nusantara,81550  Gelang Patah, Johor",1.4610675,103.5841078
+FAMILYMART Mahkota Cheras,"No.2A, Jalan Temenggung 7/9, Seksyen 9, Bandar Mahkota Cheras, 43200, Cheras, Selangor",3.0521806,101.7871596
+FAMILYMART Mayang Mall,"LG-19, LG-20, LG-21, LG-21A, Lower Ground Floor, Mayang Mall, No. 1, Persiaran Mayang, 20000 Kuala Terengganu, Terengganu",5.3371913,103.1449589
+FAMILYMART Bandar Menjalara,"No. 55 (Ground Floor), Jalan 3/62A, Bandar Menjalara, Kepong, 52100 Kuala Lumpur",3.1951757,101.6303885
+FAMILYMART Aeon Taiping,Lot G21 at AEON Mall Taiping,4.873151099999999,100.7308056
+FAMILYMART Alam Avenue,"Unit A-2-G, Jalan Serai Wangi F 16/F, Alam Avenue, Seksyen 16, 40200 Shah Alam, Selangor",3.0579242,101.4915571
+FAMILYMART Marang,"Lot 8994-B, Bangunan Komersial Bandar Marang, Terengganu",5.209614,103.2048583
+FAMILYMART Gua Musang,"Lot 6586, Taman Wangsa Mewangi, Jalan Persiaran Raya, 18300 Gua Musang, Kelantan",4.8717235,101.963768
+FAMILYMART Gurney Paragon (LG),"163D-LG-19, 20, 21 & P10, Lower Ground Floor, Gurney Paragon Mall, Persiaran Gurney, 10250 Pulau Pinang",5.4357359,100.311185
+FAMILYMART Pasir Puteh,"PT 3063, Jalan Pasir Puteh Sentral 2/2, 16800 Pasir Puteh, Kelantan",5.8067462,102.3842924
+FAMILYMART The Exchange TRX 106,"Lot #G.02, Level Ground, Menara Exchange 106, Lingkaran TRX, 55188 Tun Razak Exchange (TRX), Kuala Lumpur",3.1418492,101.7188096
+"FAMILYMART Pusat Perniagaan Oren, Bagan Ajam","No. 91 (Ground Floor), Jalan Merbau, Pusat Perniagaan Oren, 13000 Butterworth, Pulau Pinang",5.4380674,100.3829727
+FAMILYMART Changlun,"No. 74A & 75A (Ground Floor), Jalan PKC 1, Pusat Komersial Cahngloon, 06010 Changlun, Kedah Darul Aman",6.437689199999999,100.4307512
+FAMILYMART Mirai Residence,"Unit 1-9, Level 1, Mirai Residence Retail Shop, 43000 Kajang, Selangor",2.9774614,101.8028123
+FAMILYMART Berek 12,"Ground Floor of Lot, 4441, Jalan Abdul Kadir Adabi, Berek 12, 15200 Kota Bharu, Kelantan",6.1171804,102.2530262
+FAMILYMART Kuala Ketil CC,"No. 102 & 103 (Ground Floor), PERSIARAN KKCC 2, Kuala Ketil, 09100 Kuala Kedah, Kedah",5.6023531,100.6457317
+FAMILYMART Jalan Sultan Yahya Petra,"Ground Floor of Lot 727, 728 & 10676, Jalan Sultan Yahya Petra, 15200 Kota Bharu, Kelantan",6.1112444,102.2476579
+FAMILYMART Subang Perdana,"No. 47-G, Ground Floor Jalan Dinar U3/G, U3, Seksyen, Taman Subang Perdana, 40150 Shah Alam, Selangor",3.1495944,101.5398221
+FAMILYMART Southkey Megamall,"LG-020, The Mall, Mid Valley Southkey, Persiaran Southkey 1, Southkey, 80150 Johor Bahru, Johor",1.4967341,103.7774945
+FAMILYMART Jalan Air Jernih,"1D & 1E, Ground Floor and Mezzanine Floor, Jalan Air Jernih, 20300 Kuala Terengganu, Terengganu",5.3283236,103.1370965
+FAMILYMART Taman Pulai Mutiara,"Unit 8, Ground Floor, Jln Pulai Mutiara 4/9, Taman Pulai Mutiara, 81300 Johor Bahru, Johor",1.5458145,103.6019313
+FAMILYMART Bertam Avenue,"28 & 30, 17, Persiaran Dagangan, Pusat Bandar Bertam Perdana, 13200 Kepala Batas, Pulau Pinang",5.5186088,100.4507025
+FAMILYMART Taman Pengkalan Impian,"Unit 14, Ground Floor, Jalan Pengkalan Impian 2, Taman Pengkalan Impian, 75460 Melaka",2.2030919,102.1932608
+FAMILYMART Taman Setiawangsa,"Jalan Setiawangsa 10, Taman Setiawangsa, 54200 Kuala Lumpur",3.1798365,101.7416045
+FAMILYMART Sri Permaisuri 2,"No. 33 (Ground Floor), Jalan Sri Permaisuri, Bandar Sri Permaisuri, 56000 Kuala Lumpur",3.1026079,101.7118331
