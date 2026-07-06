@@ -94,12 +94,12 @@ def main() -> int:
     )
     doc.add_paragraph(
         "Management has guided expansion toward Northern and Southern Peninsular Malaysia, with "
-        "Pulau Pinang and Johor as focus states. Benchmarked against the Peninsular average of 25.9 "
+        "Pulau Pinang and Johor as focus states. Benchmarked against the Peninsular average of 25.8 "
         "stores per 100k, this guidance is directionally sound: the two states hold roughly 230 "
         "stores of at-par headroom — enough to grow the KKmart network by about 20% without entering "
         "saturated territory. The critical execution question is mix: the headroom sits in Georgetown "
         "(Timur Laut), mainland Seberang Perai, and Johor's secondary districts — not in Johor Bahru, "
-        "which is already 90 stores over par."
+        "which is already 88 stores over par."
     )
 
     # 2. Methodology
@@ -110,9 +110,9 @@ def main() -> int:
         "Dataset": [
             "KKmart store list (1,054 stores)",
             "Competitor stores (6,613 outlets)",
-            "Population by district, 2024",
+            "Population by district, 2025",
             "Households, Census 2020",
-            "Income, expenditure, poverty, Gini (HIES 2022)",
+            "Income, expenditure, poverty, Gini (HIES 2024)",
             "District boundaries (GeoJSON, 160 districts)",
         ],
         "Source": [
@@ -120,7 +120,7 @@ def main() -> int:
             "Compiled lists: 7-Eleven (2,600), 99 Speedmart (3,014), FamilyMart (479), myNEWS (520)",
             "DOSM OpenDOSM: population_district",
             "DOSM data-open GitHub: census_district",
-            "DOSM OpenDOSM: hies_district",
+            "DOSM OpenDOSM: hies_district (2022 fallback for Perlis & federal territories)",
             "DOSM data-open GitHub: administrative_2_district",
         ],
     })
@@ -133,9 +133,11 @@ def main() -> int:
         "with invalid coordinates removed), duplicates flagged, all 7,667 stores geocoded.",
         "Spatial join: every store assigned to its administrative district by point-in-polygon matching "
         "against official DOSM boundaries (coastal stores snapped to nearest district).",
-        "Demand index per district: weighted blend of normalized indicators — population 2024 (30%), "
-        "households (20%), population density (20%), mean household expenditure (15%), share of "
-        "population aged 15-39 (10%), and population growth 2020-2024 (5%).",
+        "Demand index per district: weighted blend of normalized indicators — population 2025 (35%), "
+        "households (10%), population density (20%), mean household expenditure, HIES 2024 (20%), share "
+        "of population aged 15-39 (10%), and population growth 2020-2025 (5%). Weights favour recency: "
+        "the vintage Census 2020 household count is downweighted in favour of 2025 population and "
+        "2024 expenditure.",
         "Saturation ratio: district convenience stores per 100k population divided by the national rate "
         f"({national_rate:.1f}/100k). Above 1.2x = saturated; below 0.5x = underserved.",
         "Whitespace score: demand index minus normalized total market supply (all five brands), so a "
@@ -210,7 +212,7 @@ def main() -> int:
         "The deepest whitespace in the country: Tawau (414k people, 8 stores in total across all "
         "brands), Semporna, Lahad Datu and Kinabatangan in Sabah; Bintulu and Sibu in Sarawak. "
         "Kalabakan and Kunak have no convenience store from any chain. Bintulu is notable for its "
-        "high median income (RM 8,567 — above Klang) with no KKmart presence. The main execution "
+        "high median income (RM 8,317 — among the highest outside the Klang Valley) with no KKmart presence. The main execution "
         "risk is logistics: distribution-centre and shipping costs across the South China Sea."
     )
     add_table(doc, ow_table(ow_east))
@@ -224,8 +226,8 @@ def main() -> int:
         "average), Pasir Mas, Bachok and Tumpat form a contiguous under-served cluster around the "
         "Kota Bharu conurbation. Unlike East Malaysia, these districts are reachable from existing "
         "Peninsular distribution infrastructure, making them the lower-risk half of the open "
-        "whitespace despite lower median incomes (RM 3,500-4,300 in the Kelantan cluster; "
-        "Kuala Nerus near Kuala Terengganu is the income outlier at RM 6,800)."
+        "whitespace despite lower median incomes (RM 3,600-4,700 in the Kelantan cluster; "
+        "Kuala Nerus near Kuala Terengganu is the income outlier at RM 7,300)."
     )
     add_table(doc, ow_table(ow_west))
     doc.add_paragraph()
@@ -278,8 +280,8 @@ def main() -> int:
         "Alor Setar (85 competitor outlets, nearly at par yet zero KKmart), Kulim, Kubang Pasu and "
         "Perlis, plus Larut dan Matang (Taiping) in Perak. These adjoin the Penang expansion corridor "
         "and could share its distribution (see section 4.3). The remainder are East Coast towns, "
-        "including the higher-income oil-and-gas centres Kemaman (RM 6,425 median) and Dungun "
-        "(RM 6,356). Kuala Terengganu is a special case: 33 of its 38 competitor outlets are "
+        "including the higher-income oil-and-gas centres Kemaman (RM 7,709 median) and Dungun "
+        "(RM 7,156). Kuala Terengganu is a special case: 33 of its 38 competitor outlets are "
         "7-Eleven and 99 Speedmart has no store there, so the value-grocery position KKmart competes "
         "for is effectively uncontested."
     )
@@ -291,8 +293,8 @@ def main() -> int:
     doc.add_paragraph(
         "Management guidance points to expansion in Northern and Southern Peninsular Malaysia, with "
         "Pulau Pinang and Johor as the focus states. This section benchmarks both states against the "
-        "Peninsular average of 25.9 stores per 100k population (the appropriate yardstick for "
-        "Peninsular expansion; the national rate of 22.5 is diluted by East Malaysia). Two metrics "
+        "Peninsular average of 25.8 stores per 100k population (the appropriate yardstick for "
+        "Peninsular expansion; the national rate of 22.4 is diluted by East Malaysia). Two metrics "
         "are used: headroom to par — the number of stores a district can absorb before reaching "
         "average Peninsular density (negative = overshoot) — and the KKmart fair-share gap — stores "
         "KKmart would need to hold its 14.6% Peninsular network share of the district's current "
@@ -316,7 +318,7 @@ def main() -> int:
     doc.add_paragraph()
     doc.add_paragraph(
         "Four of five districts sit below par with headroom to grow. Timur Laut (Georgetown) is the "
-        "standout: the island's commercial core, median income of RM 6,714, and 57 stores of headroom "
+        "standout: the island's commercial core, median income of RM 7,745, and 55 stores of headroom "
         "— the single largest under-supplied urban market in the North. Mainland Seberang Perai is "
         "where KKmart is most under-indexed: 155 competitor outlets in SP Utara and SP Tengah against "
         "just 8 KKmart stores. The exception is Seberang Perai Selatan, already 1.23x par and 11 "
@@ -328,11 +330,11 @@ def main() -> int:
     doc.add_paragraph()
     doc.add_paragraph(
         "Johor Bahru, the state's headline market, is already saturated: 556 stores, 1.19x Peninsular "
-        "par, 90 stores over. Incremental JB openings compete with 469 competitor outlets for existing "
+        "par, 88 stores over. Incremental JB openings compete with 469 competitor outlets for existing "
         "traffic. The genuine Johor runway is in secondary districts — Batu Pahat (+29 headroom), Kota "
-        "Tinggi (+25), Muar (+18), Kluang (+17), with Kulai, Pontian and Tangkak adding roughly 10 "
+        "Tinggi (+24), Muar (+17), Kluang (+17), with Kulai, Pontian and Tangkak adding roughly 10 "
         "each. Johor excluding JB offers approximately 120 stores of at-par headroom, comparable to "
-        "Penang's 113 excluding SP Selatan."
+        "Penang's 111 excluding SP Selatan."
     )
 
     add_heading(doc, "4.3 Adjacent Northern opportunity — Kedah and Perlis", 2)
@@ -341,7 +343,7 @@ def main() -> int:
         "region actually sits next door: Kulim (+38 stores, zero KKmart, 53 competitors), Kuala Muda / "
         "Sungai Petani (+36, two KKmart vs 110 competitors) and Perlis (+43, zero KKmart). These "
         "districts border Penang's mainland corridor and could share its distribution infrastructure, "
-        "at the cost of lower median incomes (RM 4,200-4,700 versus Penang's RM 6,200-7,200)."
+        "at the cost of lower median incomes (RM 4,700-5,300 versus Penang's RM 6,900-8,900)."
     )
 
     add_heading(doc, "4.4 Reading management execution", 2)
@@ -385,8 +387,10 @@ def main() -> int:
     # 6. Caveats
     add_heading(doc, "6. Caveats", 1)
     for c in [
-        "Data vintages differ: households are Census 2020, income/expenditure HIES 2022, population 2024. "
-        "Rankings are robust to this, but absolute per-household figures mix reference years.",
+        "Data vintages differ: households are Census 2020 (downweighted in the demand index accordingly), "
+        "income/expenditure HIES 2024 (2022 fallback for Perlis and the federal territories, flagged in "
+        "the income_year column), population 2025. Rankings are robust to this, but absolute "
+        "per-household figures mix reference years.",
         "Districts are coarse units; a large district can hide urban pockets that are locally saturated. "
         "A finer DUN-level or catchment-radius pass is the recommended next step for site selection.",
         "All five brands are weighted equally in the saturation measure, although 99 Speedmart's mini-market "

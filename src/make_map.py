@@ -46,7 +46,7 @@ HOTSPOTS = [
      "Alor Setar, Sungai Petani, Kulim, Perlis — competitor-validated, "
      "KKmart nearly absent; adjoins the Penang focus state."),
     ("Penang", 5.35, 100.40, 10,
-     "Georgetown (+57 store headroom) and mainland Seberang Perai — the biggest "
+     "Georgetown (+55 store headroom) and mainland Seberang Perai — the biggest "
      "urban under-supply in the North."),
     ("Johor secondary towns", 2.05, 102.90, 9,
      "Batu Pahat, Muar, Kluang, Kota Tinggi — ~120-store headroom while "
@@ -195,8 +195,8 @@ def main() -> int:
 
     tooltip_fields = [
         ("rank", "Rank"), ("state", "State"), ("district", "District"),
-        ("population", "Population (2024)"), ("household_total", "Households (2020)"),
-        ("income_median", "Median income (RM, 2022)"),
+        ("population", "Population (2025)"), ("household_total", "Households (2020)"),
+        ("income_median", "Median income (RM, 2024)"),
         ("kkmart_count", "KKmart stores"), ("competitor_count", "Competitor stores"),
         ("stores_per_100k", "Stores per 100k pop"),
         ("saturation_level", "Saturation level"),

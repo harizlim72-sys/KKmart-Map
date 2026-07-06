@@ -38,15 +38,17 @@ saturation:
   saturated_ratio: 1.2    # above this = saturated
   open_ratio: 0.5         # below this = underserved / open
 
-# Demand index weights (must sum to 1.0)
+# Demand index weights (must sum to 1.0).
+# Weighted by data recency: households come from Census 2020 (vintage) so they
+# carry less weight; population (2025) and expenditure (HIES 2024) carry more.
 demand_weights:
-  population: 0.30
-  households: 0.20
-  density: 0.20
-  expenditure: 0.15
-  youth_share: 0.10
-  growth: 0.05
+  population: 0.35     # 2025
+  households: 0.10     # Census 2020 (vintage - downweighted)
+  density: 0.20        # 2025 population / area
+  expenditure: 0.20    # HIES 2024
+  youth_share: 0.10    # 2025
+  growth: 0.05         # 2020-2025 CAGR
 
 scoring:
-  population_year: 2024        # latest population vintage to use
+  population_year: 2025        # latest population vintage to use
   supply_per: 100000           # stores per N population

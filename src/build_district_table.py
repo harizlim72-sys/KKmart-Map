@@ -1,7 +1,7 @@
 """Build the district-level demand table for the whitespace analysis.
 
-Joins DOSM population (2020-2024), Census 2020 households, and HIES 2022
-income/expenditure onto the 160 administrative districts.
+Joins DOSM population (latest vintage), Census 2020 households, and the
+latest HIES income/expenditure onto the 160 administrative districts.
 
 Output: data/processed/district_master.csv
 Usage: python -m src.build_district_table
@@ -17,6 +17,29 @@ ROOT = Path(__file__).resolve().parents[1]
 
 YOUTH_AGES = ["15-19", "20-24", "25-29", "30-34", "35-39"]
 
+# Newer DOSM vintages use variant district names; canonicalize to the
+# GeoJSON boundary names, keyed on (state, district) where ambiguous.
+NAME_FIXES = {
+    ("Pahang", "Cameron Highland"): "Cameron Highlands",
+    ("Pulau Pinang", "Sp Selatan"): "Seberang Perai Selatan",
+    ("Pulau Pinang", "Sp Tengah"): "Seberang Perai Tengah",
+    ("Pulau Pinang", "Sp Utara"): "Seberang Perai Utara",
+    ("Pulau Pinang", "S.P. Selatan"): "Seberang Perai Selatan",
+    ("Pulau Pinang", "S.P.Tengah"): "Seberang Perai Tengah",
+    ("Pulau Pinang", "S.P.Utara"): "Seberang Perai Utara",
+    ("Perak", "Larut & Matang"): "Larut Dan Matang",
+    ("Terengganu", "Hulu"): "Hulu Terengganu",
+    ("Sarawak", "Lubok antu"): "Lubok Antu",
+}
+
+
+def fix_names(df: pd.DataFrame) -> pd.DataFrame:
+    fixed = df["district"].str.strip()
+    keys = list(zip(df["state"].str.strip(), fixed))
+    df = df.copy()
+    df["district"] = [NAME_FIXES.get(k, d) for k, d in zip(keys, fixed)]
+    return df
+
 
 def load_config() -> dict:
     with open(ROOT / "config.yaml") as f:
@@ -29,8 +52,10 @@ def join_key(df: pd.DataFrame) -> pd.Series:
 
 
 def build_population(raw_dir: Path, year: int) -> pd.DataFrame:
-    pop = pd.read_parquet(raw_dir / "population_district.parquet")
+    pop = fix_names(pd.read_parquet(raw_dir / "population_district.parquet"))
     pop["year"] = pd.to_datetime(pop["date"]).dt.year
+    # name fixes can leave the same district under two spellings in one year
+    pop = pop.drop_duplicates(subset=["state", "district", "year", "sex", "age", "ethnicity"])
     both = pop[(pop["sex"] == "both") & (pop["ethnicity"] == "overall")]
 
     total = both[both["age"] == "overall"]
@@ -73,10 +98,22 @@ def build_census(raw_dir: Path) -> pd.DataFrame:
 
 
 def build_hies(raw_dir: Path) -> pd.DataFrame:
-    hies = pd.read_parquet(raw_dir / "hies_district.parquet")
-    out = hies[
-        ["state", "district", "income_mean", "income_median", "expenditure_mean", "gini", "poverty"]
-    ].copy()
+    hies = fix_names(pd.read_parquet(raw_dir / "hies_district.parquet"))
+    latest, prev = hies["date"].max(), hies["date"].min()
+    cols = ["income_mean", "income_median", "expenditure_mean", "gini", "poverty"]
+
+    cur = hies[hies["date"] == latest].copy()
+    cur["income_year"] = pd.to_datetime(latest).year
+    # some districts (Perlis, W.P. KL/Labuan/Putrajaya) are absent from the
+    # latest vintage — fall back to the previous survey for those only
+    old = hies[hies["date"] == prev].copy()
+    old["income_year"] = pd.to_datetime(prev).year
+    missing = old[~join_key(old).isin(set(join_key(cur)))]
+    if len(missing):
+        print(f"  HIES: {len(cur)} districts from {cur['income_year'].iat[0]}, "
+              f"{len(missing)} filled from {old['income_year'].iat[0]}: "
+              + ", ".join(missing["district"]))
+    out = pd.concat([cur, missing])[["state", "district", "income_year"] + cols]
     out["key"] = join_key(out)
     return out.drop(columns=["state", "district"])
 
